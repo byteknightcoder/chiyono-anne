@@ -1,0 +1,212 @@
+/*--------------------------------
+
+wooicons Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: 'wooicons';
+  src: url('fonts/wooicons.eot');
+  src: url('fonts/wooicons.eot') format('embedded-opentype'), url('fonts/wooicons.woff2') format('woff2'), url('fonts/wooicons.woff') format('woff'), url('fonts/wooicons.ttf') format('truetype'), url('fonts/wooicons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*------------------------
+	base class definition
+-------------------------*/
+.woo-icon- {
+  display: inline-block;
+  font: normal normal normal 1em/1 'wooicons';
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*------------------------
+  change icon size
+-------------------------*/
+/* relative units */
+.woo-icon--sm {
+  font-size: 0.8em;
+}
+.woo-icon--lg {
+  font-size: 1.2em;
+}
+/* absolute units */
+.woo-icon--16 {
+  font-size: 16px;
+}
+.woo-icon--32 {
+  font-size: 32px;
+}
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+.woo-icon--bg-square,
+.woo-icon--bg-circle {
+  padding: 0.35em;
+  background-color: #eee;
+}
+.woo-icon--bg-circle {
+  border-radius: 50%;
+}
+/*------------------------------------
+  use icons as list item markers
+-------------------------------------*/
+.woo-icon--ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.woo-icon--ul > li {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+.woo-icon--ul > li > .woo-icon- {
+  margin-right: 0.4em;
+  line-height: inherit;
+}
+/*------------------------
+  spinning icons
+-------------------------*/
+.woo-icon--is-spinning {
+  -webkit-animation: woo-icon--spin 2s infinite linear;
+  -moz-animation: woo-icon--spin 2s infinite linear;
+  animation: woo-icon--spin 2s infinite linear;
+}
+@-webkit-keyframes woo-icon--spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes woo-icon--spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes woo-icon--spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+.woo-icon--rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.woo-icon--rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.woo-icon--rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.woo-icon--flip-y {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.woo-icon--flip-x {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+/*------------------------
+	icons
+-------------------------*/
+
+.woo-icon-circle-remove::before {
+  content: "\ea02";
+}
+
+.woo-icon-circle-delete::before {
+  content: "\ea03";
+}
+
+.woo-icon-ban::before {
+  content: "\ea04";
+}
+
+.woo-icon-delivery::before {
+  content: "\ea05";
+}
+
+.woo-icon-check-circle-08::before {
+  content: "\ea06";
+}
+
+.woo-icon-time-3::before {
+  content: "\ea07";
+}
+
+.woo-icon-credit-card::before {
+  content: "\ea08";
+}
+
+.woo-icon-card-update::before {
+  content: "\ea09";
+}
+
+.woo-icon-box-3d-50::before {
+  content: "\ea0a";
+}
+
+.woo-icon-opening-times::before {
+  content: "\ea0b";
+}
+
+.woo-icon-alert-circle-exc::before {
+  content: "\ea0c";
+}
+
+.woo-icon-card-remove::before {
+  content: "\ea0d";
+}
+
+.woo-icon-bank::before {
+  content: "\ea0e";
+}
+
+.woo-icon-money-coins::before {
+  content: "\ea0f";
+}
+

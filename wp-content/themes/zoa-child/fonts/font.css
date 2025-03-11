@@ -1,0 +1,24 @@
+/* CSS Document */
+
+@font-face {
+    font-family: 'King';
+    src: url('King.eot'); /* IE9 Compat Modes */
+	src: url('King.eot?#iefix') format('embedded-opentype'), /* eof - IE6-IE8 */
+		 url('King.woff2') format('woff2'), /* Super Modern Browsers */
+	     url('King.woff') format('font-woff'), /* woff - Modern Browsers */
+	     url('King.ttf')  format('truetype'), /* ttf - Safari, Android, iOS */
+	     url('King.svg#King') format('svg'); /* svg - Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Notera';
+    src: url('Notera.eot'); /* IE9 Compat Modes */
+	src: url('Notera.eot?#iefix') format('embedded-opentype'), /* eof - IE6-IE8 */
+		 url('Notera.woff2') format('woff2'), /* Super Modern Browsers */
+	     url('Notera.woff') format('font-woff'), /* woff - Modern Browsers */
+	     url('Notera.ttf')  format('truetype'), /* ttf - Safari, Android, iOS */
+	     url('Notera.svg#Notera') format('svg'); /* svg - Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

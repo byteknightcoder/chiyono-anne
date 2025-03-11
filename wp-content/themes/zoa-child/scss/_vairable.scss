@@ -1,0 +1,32 @@
+$white: #FFF;
+$black: #000;
+$lineGray: #eeeeee;
+$red: red;
+$bootGutter: 15px;
+$ja-font: "Noto Sans JP",
+游ゴシック,
+"Yu Gothic",
+YuGothic,
+"Hiragino Kaku Gothic ProN",
+"Hiragino Kaku Gothic Pro",
+メイリオ,
+Meiryo,
+sans-serif;
+
+:root {
+  --bodyBackgroundColor: white;
+  --fontPrimary: "proxima-nova",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  --fontSecondary: "chaparral-pro",
+    "Courier New",
+    Courier,
+    monospace;
+  --linkSmall: .8125rem;
+  --pSmall: .85rem;
+  --productCardTitleWeight: 400;
+  --productCardTitleFontFamily: var(--fontSecondary);
+  --productCardTitleFontSize: var(--linkSmall);
+}

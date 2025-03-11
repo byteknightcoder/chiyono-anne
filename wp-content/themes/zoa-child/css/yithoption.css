@@ -1,0 +1,11 @@
+.woocommerce form .form-row .ywapo_input_container input[type="checkbox"] + label.ywapo_label:before, .woocommerce form .form-row .ywapo_input_container.ywapo_input_container_radio input[type="radio"] + label.ywapo_label:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin-right: 6px;
+}
+.woocommerce form .form-row .ywapo_input_container input[type="checkbox"] + label + .ywapo_label_price, .woocommerce form .form-row .ywapo_input_container.ywapo_input_container_radio input[type="radio"] + label.ywapo_label + .ywapo_label_price {
+    padding-left: 12px;
+}

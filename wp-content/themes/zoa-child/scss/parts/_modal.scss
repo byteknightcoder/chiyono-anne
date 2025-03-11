@@ -1,0 +1,42 @@
+.remodal.remodal {
+  &_base {
+    padding: 0;
+    .remodal-close {
+      &_small {
+        top: 1rem;
+        right: 1rem;
+        @include mq-up() {
+          width: 30px;
+          height: 30px;
+          &:before {
+            font-size: 30px;
+            line-height: 30px;
+            width: 30px;
+          }
+        }
+      }
+    }
+    .pop-up {
+      .pop-head {
+        padding: 1.5rem 3.5rem 1rem 2rem;
+        margin: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, .15);
+        .modal_title {
+          font-size: 1.15rem;
+          line-height: 1.45;
+        }
+      }
+      .pop-content {
+        padding: 2rem;
+        p {
+          line-height: 1.65;
+          font-size: .875rem;
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+    }
+    
+  }
+}

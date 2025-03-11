@@ -1,0 +1,22 @@
+.yaydp-matching-products {
+  text-decoration: none;
+}
+.yaydp-matching-products > li {
+  list-style: none;
+}
+
+.yaydp-matching-products > li > div {
+  display: flex;
+  padding: 5px 0;
+  align-items: center;
+}
+
+.yaydp-matching-products .yaydp-matching-product-image {
+  margin: 0;
+  width: auto;
+  height: auto;
+  max-width: 40px;
+  max-height: 40px;
+  vertical-align: middle;
+  padding-right: 5px;
+}

@@ -1,0 +1,368 @@
+/*--------------------------------
+
+oecicon Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: 'oecicon';
+  src: url('fonts/oecicon.eot?201812071241');
+  src: url('fonts/oecicon.eot?201812071241') format('embedded-opentype'), url('fonts/oecicon.woff2?201812071241') format('woff2'), url('fonts/oecicon.woff?201812071241') format('woff'), url('fonts/oecicon.ttf?201812071241') format('truetype'), url('fonts/oecicon.svg?201812071241') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*------------------------
+	base class definition
+-------------------------*/
+.oecicon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'oecicon';
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*------------------------
+  change icon size
+-------------------------*/
+/* relative units */
+.oecicon-sm {
+  font-size: 0.8em;
+}
+.oecicon-lg {
+  font-size: 1.2em;
+}
+/* absolute units */
+.oecicon-16 {
+  font-size: 16px;
+}
+.oecicon-32 {
+  font-size: 32px;
+}
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+.oecicon-bg-square,
+.oecicon-bg-circle {
+  padding: 0.35em;
+  background-color: #eee;
+}
+.oecicon-bg-circle {
+  border-radius: 50%;
+}
+/*------------------------------------
+  use icons as list item markers
+-------------------------------------*/
+.oecicon-ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.oecicon-ul > li {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+.oecicon-ul > li > .oecicon {
+  margin-right: 0.4em;
+  line-height: inherit;
+}
+/*------------------------
+  spinning icons
+-------------------------*/
+.oecicon-is-spinning {
+  -webkit-animation: oecicon-spin 2s infinite linear;
+  -moz-animation: oecicon-spin 2s infinite linear;
+  animation: oecicon-spin 2s infinite linear;
+}
+@-webkit-keyframes oecicon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes oecicon-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes oecicon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+.oecicon-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.oecicon-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.oecicon-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.oecicon-flip-y {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.oecicon-flip-x {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+/*------------------------
+	icons
+-------------------------*/
+
+.oecicon-simple-remove::before {
+  content: "\ea07";
+}
+
+.oecicon-menu-34::before {
+  content: "\ea08";
+}
+
+.oecicon-minimal-right::before {
+  content: "\ea09";
+}
+
+.oecicon-minimal-up::before {
+  content: "\ea0a";
+}
+
+.oecicon-minimal-left::before {
+  content: "\ea0b";
+}
+
+.oecicon-minimal-down::before {
+  content: "\ea0c";
+}
+
+.oecicon-log-out::before {
+  content: "\ea0d";
+}
+
+.oecicon-log-in::before {
+  content: "\ea0e";
+}
+
+.oecicon-menu-to-close-2::before {
+  content: "\ea0f";
+}
+
+.oecicon-i-sorting::before {
+  content: "\ea10";
+}
+
+.oecicon-contacts-2::before {
+  content: "\ea11";
+}
+
+.oecicon-home-simple::before {
+  content: "\ea12";
+}
+
+.oecicon-email-84::before {
+  content: "\ea13";
+}
+
+.oecicon-phone-2::before {
+  content: "\ea14";
+}
+
+.oecicon-box-3d-50::before {
+  content: "\ea15";
+}
+
+.oecicon-ban::before {
+  content: "\ea18";
+}
+
+.oecicon-credit-card::before {
+  content: "\ea1a";
+}
+
+.oecicon-money-11::before {
+  content: "\ea1b";
+}
+
+.oecicon-alert-circle-i::before {
+  content: "\ea1c";
+}
+
+.oecicon-alert-circle-que::before {
+  content: "\ea1d";
+}
+
+.oecicon-delivery::before {
+  content: "\ea1e";
+}
+
+.oecicon-calendar-grid-58::before {
+  content: "\ea1f";
+}
+
+.oecicon-time::before {
+  content: "\ea20";
+}
+
+.oecicon-delivery-time::before {
+  content: "\ea21";
+}
+
+.oecicon-speaker::before {
+  content: "\ea22";
+}
+
+.oecicon-alert::before {
+  content: "\ea23";
+}
+
+.oecicon-sale::before {
+  content: "\ea24";
+}
+
+.oecicon-new::before {
+  content: "\ea25";
+}
+
+.oecicon-gift-2::before {
+  content: "\ea26";
+}
+
+.oecicon-small-add::before {
+  content: "\ea28";
+}
+
+.oecicon-small-delete::before {
+  content: "\ea29";
+}
+
+.oecicon-alert-circle-exc::before {
+  content: "\ea2a";
+}
+
+.oecicon-bag-20::before {
+  content: "\ea2b";
+}
+
+.oecicon-heart-2-3::before {
+  content: "\ea2c";
+}
+
+.oecicon-heart-remove::before {
+  content: "\ea2d";
+}
+
+.oecicon-heart-add::before {
+  content: "\ea2e";
+}
+
+.oecicon-zoom-2::before {
+  content: "\ea2f";
+}
+
+.oecicon-pin-3::before {
+  content: "\ea30";
+}
+
+.oecicon-single-03::before {
+  content: "\ea31";
+}
+
+.oecicon-log-in-2::before {
+  content: "\ea32";
+}
+
+.oecicon-share-2::before {
+  content: "\ea39";
+}
+
+.oecicon-measurement-2::before {
+  content: "\ea3a";
+}
+
+.oecicon-stre-right::before {
+  content: "\ea3c";
+}
+
+.oecicon-stre-left::before {
+  content: "\ea3d";
+}
+
+.oecicon-tail-right::before {
+  content: "\ea3e";
+}
+
+.oecicon-star-rate::before {
+  content: "\ea3f";
+}
+
+.oecicon-texture::before {
+  content: "\ea40";
+}
+
+.oecicon-corset::before {
+  content: "\ea41";
+}
+
+.oecicon-bra::before {
+  content: "\ea42";
+}
+
+.oecicon-underwear::before {
+  content: "\ea43";
+}
+
+.oecicon-swimwear::before {
+  content: "\ea44";
+}
+
+.oecicon-like::before {
+  content: "\ea45";
+}
+
+.oecicon-love-card::before {
+  content: "\ea46";
+}
+

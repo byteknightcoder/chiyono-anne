@@ -1,0 +1,231 @@
+@charset "UTF-8";
+.fit_data_options {
+  width: 100%;
+}
+
+.custom_option__total_table {
+  border: none;
+}
+
+.custom_option__total_table td {
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.custom_option__total_table td.tr_label {
+  font-size: 0.85rem;
+  width: 180px;
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .custom_option__total_table td.tr_label {
+    width: 140px;
+  }
+}
+
+.custom_option .selected_note {
+  margin-top: 1.5rem;
+  line-height: 1.45;
+}
+
+.custom_option .selected_note .ttl {
+  font-weight: 500;
+}
+
+.custom_option .selected_note p {
+  font-size: 0.85rem;
+}
+
+.custom_option .selected_note p.p_small {
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 379px) {
+  .custom_option .selected_note p {
+    font-size: 0.75rem;
+  }
+}
+
+.custom_option__container .extra_fee {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+.fit_data_options {
+  margin-bottom: 1rem;
+  list-style-type: none;
+  counter-reset: css-counter 0;
+}
+
+.fit_data_options > div {
+  counter-increment: css-counter 1;
+}
+
+.fit_data_options .fit_title {
+  font-weight: bold;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.fit_data_options .fit_title:before, .fit_data_options .fit_title:after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.fit_data_options .fit_title:before {
+  content: counter(css-counter) "";
+  font-weight: 400;
+  width: 1rem;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  font-size: 85%;
+}
+
+.fit_data_options .fit_title + .fit_body {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.fit_data_options .fit_title + .fit_body .outofstock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fit_data_options .fit_title + .fit_body .button {
+  margin-top: 1.75rem;
+}
+
+.fit_data_options .fit_title + .fit_body .help_txt {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.fit_data_options .fit_title + .fit_body > div + div {
+  margin-top: 2rem;
+}
+
+.fit_data_options .selected_output {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-family: "Noto Sans JP", 游ゴシック, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+#ch_agree_term_try_fit {
+  padding: 0.75rem 2.125rem;
+  height: 48px;
+  background: #000;
+  color: #fff;
+  border-color: #000;
+  letter-spacing: 0.05em;
+  margin-top: 1rem;
+}
+
+#read_term_of_use_try_fit {
+  cursor: pointer;
+}
+
+.ch_next_disable {
+  opacity: 1 !important;
+  background-color: transparent !important;
+  border-color: #ddd !important;
+  color: #ddd !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
+.about_optional {
+  margin-top: 1.5rem;
+}
+
+.about_optional__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about_optional__description .img {
+  width: 35%;
+}
+
+.about_optional__description .txt {
+  padding-left: 1rem;
+  line-height: 1.65;
+  font-size: 0.8rem;
+}
+
+.about_optional__description .txt .ttl {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin-bottom: 8px;
+}
+
+.order__summary__row.order-deposit-notice {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #cc0000;
+}
+
+.deposit__item {
+  margin-top: 5px;
+  font-size: 0.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.deposit__item .value {
+  padding-left: 6px;
+}
+
+p.slick_p {
+  padding: 0 2rem;
+}
+
+.choose_bra_size .outstock {
+  position: relative;
+}
+
+.choose_bra_size .outstock_alert:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 52%;
+  height: 52%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 0.4;
+  background: linear-gradient(to top left, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) calc(50% - 0.8px), red 50%, rgba(0, 0, 0, 0) calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%), linear-gradient(to top right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) calc(50% - 0.8px), red 50%, rgba(0, 0, 0, 0) calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%);
+}
+
+.boxed_alert {
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  background: #ffe7e8;
+  color: #f70000;
+  border: solid #f70000 1px;
+  margin-top: 1rem;
+  display: block;
+}
+
+.boxed_alert .link {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=try_fit_your_size.css.map */

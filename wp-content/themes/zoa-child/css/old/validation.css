@@ -1,0 +1,45 @@
+/* CSS Document */
+.form-row .field-wrapper input.parsley-error, .form-row .field-wrapper textarea.parsley-error, input.inputError, .form-row .field-wrapper input.inputError, .form-row .field-wrapper textarea.inputError {
+    background-color: #fce4e4;
+    border: 1px solid #cc0033 !important;
+    outline: none;
+}
+.form-row > .field-wrapper.has-error > label {
+    color: #cc0033;
+}
+.formErrorContent {
+    font-size: .75rem;
+    margin-top: 8px;
+    line-height: 1.6;
+    color: #cc0033;
+}
+.parsley-errors-list {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0px;
+    font-size: .75rem;
+}
+.parsley-errors-list >li {
+	color: #cc0033;
+	line-height: 1.15;
+}
+.mw_wp_form_input .form-row input[type="submit"].button:disabled, .mw_wp_form_input .form-row input[type="submit"].button:disabled:hover {
+    border-color: #CCC;
+    color: #CCC;
+    background: #FFF;
+    cursor: not-allowed;
+}
+/*Stripe Error*/
+ul.woocommerce_error.wc-stripe-error {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul.woocommerce_error.wc-stripe-error > li {
+    font-size: .85rem;
+    font-weight: 500;
+    background-color: #fce4e4;
+    line-height: 1.6;
+    padding: 5px 12px;
+    border: 1px solid #cc0033;
+}

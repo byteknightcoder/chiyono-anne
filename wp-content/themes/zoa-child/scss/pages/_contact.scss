@@ -1,0 +1,270 @@
+/****************************
+moved from contact.css
+*****************************/
+#contact-contain-box .elementor-row {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#contact-contain-box #aside-con {
+  max-width: 245px;
+  width: 100%;
+}
+
+#contact-contain-box #main-con {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+#contact-contain-box .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+  padding: 0 15px;
+}
+
+#contact-contain-box .elementor-widget-wrap .serif-heading h2 {
+  font-family: var(--fontSecondary);
+  font-weight: normal;
+  font-size: 3rem !important;
+}
+
+.mw_wp_form .form-row .mwform-tel-field input[type="text"] {
+  width: auto;
+  float: none !important;
+}
+
+/*Elementor Tab*/
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title.elementor-active,
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-content {
+  border: none !important;
+}
+
+.elementor-widget-tabs .elementor-tab-desktop-title.elementor-active:after,
+.elementor-widget-tabs .elementor-tab-desktop-title.elementor-active:before {
+  content: none;
+}
+
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title.elementor-active,
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title {
+  border: none;
+  position: relative;
+}
+
+.elementor-widget-tabs .elementor-tabs-wrapper {
+  position: relative;
+}
+
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title.elementor-active:after {
+  content: '';
+  height: 1px !important;
+  width: 100% !important;
+  position: absolute;
+  left: 0 !important;
+  bottom: 0px !important;
+  display: block;
+  background: rgba(0, 0, 0, .5);
+  z-index: 2;
+  border: none !important;
+}
+
+.elementor-widget-tabs .elementor-tabs-wrapper:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #efefef;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+#contact-contain-box .elementor-tab-title a {
+  font-family: Courier, "Courier New", monospace;
+  font-weight: normal;
+  color: #000;
+}
+
+#contact-contain-box .elementor-tab-title:not(.elementor-active) a {
+  color: rgba(0, 0, 0, .3);
+}
+
+.ctf-contact-form .wpcf7-form-control {
+  font-family: var(--fontBody);
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.ctf-contact-form .wpcf7-form-control::placeholder {
+  color: rgba(0, 0, 0, .5);
+}
+
+.mw_wp_form .form-row {
+  float: none;
+}
+
+.mw_wp_form_input .field-wrapper .button {
+  height: 48px;
+}
+
+.mw_wp_form_confirm {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.mw_wp_form_confirm .field-wrapper .button {
+  width: 100%;
+  height: 48px;
+}
+
+.form-row input[type="text"] {
+  float: none;
+}
+
+.contact-form-emails {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.contact-form-emails li h3 {
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  text-decoration: inherit;
+  font-family: var(--fontSecondary);
+}
+
+.contact-form-emails li h3 a {
+  display: inline-block;
+}
+
+.contact-form-emails .headline {
+  font-family: var(--fontPrimary);
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, .5);
+  line-height: 1;
+}
+
+.contact-form-emails li+li {
+  margin-top: 28px;
+}
+
+#aside-con .elementor-text-editor p {
+  font-family: var(--fontPrimary);
+  color: rgba(0, 0, 0, .6);
+  line-height: 1.5;
+}
+
+#aside-con .elementor-text-editor p:last-child {
+  margin-bottom: 0;
+}
+
+/*Form Row Lauout*/
+.mw_wp_form form .form-row {
+  float: none;
+}
+
+span.mwform-tel-field {
+  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+span.mwform-tel-field input {
+  margin-right: 5px;
+}
+
+span.mwform-tel-field input:not(:first-child) {
+  margin-left: 5px;
+}
+
+div#error-tel ul.parsley-errors-list+ul.parsley-errors-list {
+  display: none;
+}
+
+/*Complete Page*/
+.mw_wp_form.mw_wp_form_complete {
+  max-width: 480px;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: .95rem;
+}
+
+@media only screen and (min-width: 48em) {}
+
+@media only screen and (max-width: 47.99em) {
+  #contact-contain-box .justwrap {
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    float: none;
+  }
+
+  #contact-contain-box .elementor-tabs .elementor-tabs-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  #contact-contain-box .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title {
+    padding: 20px 0;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  #contact-contain-box .elementor-tabs .elementor-tab-mobile-title {
+    display: none;
+  }
+
+  #contact-contain-box .elementor-row .elementor-col-50:last-child {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: 0;
+    -webkit-order: 0;
+    order: 0;
+    margin-bottom: 42px;
+  }
+
+  #contact-contain-box #aside-con {
+    max-width: 100%;
+  }
+
+  #contact-contain-box .elementor-row .elementor-col-50:first-child {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+}

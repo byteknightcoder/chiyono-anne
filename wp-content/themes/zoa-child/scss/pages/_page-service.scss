@@ -1,0 +1,46 @@
+.page-guide-tbyb {
+  section {
+    &#sec_intro {
+      margin-bottom: 7rem;
+    }
+
+    &.cv_hero {
+      &.elementor-section-boxed {
+        >.elementor-container {
+          max-width: 820px;
+        }
+      }
+
+      .heading__en {
+        font-size: 2.75rem;
+
+        h2 {
+          text-align: center;
+          letter-spacing: -0.015em;
+          font-family: "Cormorant Garamond", "chaparral-pro", "Courier New",
+            Courier, monospace;
+          font-weight: 500;
+          text-transform: initial;
+        }
+
+        &_caption {
+          margin-bottom: 1rem;
+
+          h4 {
+            text-align: center;
+          }
+        }
+      }
+
+      .cv_image {
+        max-width: 420px;
+        margin: 3rem auto;
+      }
+    }
+
+    .testy {
+      opacity: 1;
+      font-size: inherit;
+    }
+  }
+}

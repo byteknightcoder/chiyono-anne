@@ -1,0 +1,343 @@
+.rank_icon {
+	display: block;
+	width: 85%;
+	max-width: 52px;
+	margin: 0 auto 6px;
+}
+
+.rank_icon .svg-wrap {
+	position: relative;
+	z-index: 1;
+}
+
+.rank_icon .svg-wrap:before {
+	content: "";
+	width: 105%;
+	height: 105%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border: 1px solid #d4af37;
+	transform: translate(-50%, -50%);
+	border-radius: 100%;
+	z-index: -1;
+}
+
+.rank_icon .svg-wrap svg {
+	fill: #d4af37;
+}
+
+.rank_icon+.name {
+	color: #d4af37;
+}
+
+.rank_tr svg#gradient {
+	position: absolute;
+	left: auto;
+	right: auto;
+	top: auto;
+	bottom: auto;
+	z-index: -3;
+}
+
+.rank_tr_royal .rank_icon .svg-wrap svg {
+	fill: url(#linearGradient);
+}
+
+.rank_tr_royal .rank_icon .svg-wrap:before {
+	border-color: transparent;
+	background: #acb6e5;
+	background: linear-gradient(-45deg, #74ebd5, #ffdde1, #acb6e5);
+	z-index: -2;
+}
+
+.rank_tr_royal .rank_icon .svg-wrap:after {
+	background: #fff;
+	content: "";
+	width: calc(105% - 2px);
+	height: calc(105% - 2px);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 100%;
+	z-index: -1;
+}
+
+.rank_tr_royal .rank_icon+.name {
+	background-image: linear-gradient(-45deg, #74ebd5, #ffdde1, #acb6e5);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.rank_tr_silver .rank_icon .svg-wrap:before {
+	border-color: #c0c0c0;
+}
+
+.rank_tr_silver .rank_icon .svg-wrap svg {
+	fill: #c0c0c0;
+}
+
+.rank_tr_silver .rank_icon+.name {
+	color: #c0c0c0;
+}
+
+.rank_tr_bronze .rank_icon .svg-wrap:before {
+	border-color: #cd7f32;
+}
+
+.rank_tr_bronze .rank_icon .svg-wrap svg {
+	fill: #cd7f32;
+}
+
+.rank_tr_bronze .rank_icon+.name {
+	color: #cd7f32;
+}
+
+.youare {
+	font-size: 0.85rem;
+	letter-spacing: 0.075em;
+}
+
+.rank_name {
+	text-transform: uppercase;
+	font-size: 115%;
+	letter-spacing: 0.05em;
+}
+
+.rank_royal {
+	background-image: linear-gradient(-45deg, #74ebd5, #ffdde1, #acb6e5);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.rank_gold {
+	color: #d4af37;
+}
+
+.rank_silver {
+	color: #c0c0c0;
+}
+
+.rank_bronze {
+	color: #cd7f32;
+}
+
+.rank_table {
+	width: 100%;
+	background: #fff;
+}
+
+@media screen and (max-width: 767px) {
+	.rank_table {
+		background: transparent;
+	}
+
+	.rank_table .rank_tr {
+		background: #fff;
+	}
+}
+
+.rank_table td,
+.rank_table th {
+	line-height: 1.35;
+}
+
+.rank_table thead th,
+.rank_table thead td {
+	font-size: 0.75rem;
+	line-height: 1.25;
+}
+
+.rank_table thead th.rank_term {
+	width: 110px;
+}
+
+.rank_table thead th.rank_logic,
+.rank_table thead th.rank_term {
+	text-align: center;
+}
+
+.rank_table tbody th,
+.rank_table tbody td {
+	font-size: 0.75rem;
+}
+
+.rank_table tbody th .name,
+.rank_table tbody td .name {
+	font-size: 1rem;
+}
+
+.rank_table .rank_icon {
+	width: 62px;
+}
+
+.rank_table .rank_name {
+	width: 100px;
+	text-align: center;
+}
+
+.rank_table .rank_name .name {
+	font-family: "chaparral-pro", "Courier New", Courier, monospace;
+	font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+	.rank_table td.rank_logic:before {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 469px) {
+	.rank_table td.rank_logic:before {
+		padding-right: 1rem;
+	}
+}
+
+.rank_block .elementor-text-editor .p_notice p {
+	line-height: 1.45;
+	margin-bottom: 6px;
+}
+
+.rank_block .elementor-text-editor .p_notice p:last-child {
+	margin-bottom: 0;
+}
+
+.rank_block .elementor-text-editor p.p_xxs {
+	font-size: 0.65rem;
+}
+
+.rank_block .elementor-text-editor p,
+.rank_block .elementor-text-editor ul li {
+	font-size: 0.85rem;
+	line-height: 1.8;
+	text-align: left;
+}
+
+@media screen and (max-width: 469px) {
+
+	.rank_block .elementor-text-editor p,
+	.rank_block .elementor-text-editor ul li {
+		font-size: 0.75rem;
+	}
+}
+
+.rank_block .elementor-text-editor ul {
+	margin: 0;
+}
+
+.rank_block .elementor-text-editor ul li+li {
+	margin-top: 1rem;
+}
+
+.rank_define .p_notice p {
+	line-height: 1.45;
+	margin-bottom: 6px;
+}
+
+.rank_define .p_notice p:last-child {
+	margin-bottom: 0;
+}
+
+.rank_define .rank_table {
+	border: none;
+	width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+	.rank_define .rank_table {
+		background: transparent;
+	}
+}
+
+.rank_define .rank_table th:last-child,
+.rank_define .rank_table td:last-child {
+	border-right: none;
+}
+
+@media screen and (min-width: 768px) {
+	.rank_define .rank_table tbody tr:last-child td {
+		border-bottom: none;
+	}
+}
+
+.rank_define .rank_table .rank_tr {
+	border: none;
+}
+
+@media screen and (min-width: 620px) {
+	.rank_define .rank_table th.rank_benefit {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.rank_define .rank_table tr {
+		background: #fff;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.rank_left {
+		max-width: 620px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#RankServices>.elementor-container {
+		max-width: 420px;
+	}
+}
+
+@media screen and (max-width: 469px) {
+	#RankServices>.elementor-container {
+		max-width: 320px;
+	}
+}
+
+.remodal table.rank_table,
+.remodal table.rank_table+div {
+	max-width: 645px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.remodal table.rank_table {
+	width: 100%;
+}
+
+.remodal table.rank_table+div {
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.rm_msg {
+	text-transform: uppercase;
+	font-size: 0.85rem;
+	letter-spacing: 0.05em;
+}
+
+span.lined {
+	border: 1px solid;
+	display: inline-block;
+	padding: 2px 4px;
+	line-height: 1.35;
+}
+
+.order__summary__row+.rm_msg {
+	margin-top: 0.35rem;
+}
+
+.rank_label {
+	padding: 2px 4px;
+	line-height: 1.35;
+	display: inline-block;
+	background: #3cd070;
+	color: #fff;
+	font-weight: 600;
+}
+
+/*# sourceMappingURL=rank.css.map */

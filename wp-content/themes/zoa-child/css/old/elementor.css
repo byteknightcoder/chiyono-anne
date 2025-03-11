@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.series_blog_title h4.elementor-heading-title.elementor-size-default {
+    margin-bottom: 24px;
+    font-size: 1rem;
+}
+
+.col-timeline-desc h5.title {
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 47.99em) {
+    .col-timeline-desc h5.title+p {
+        font-size: .85rem;
+        line-height: 1.45;
+    }
+
+    .rank_timeline .col-timeline+div {
+        margin-top: 2rem;
+    }
+}

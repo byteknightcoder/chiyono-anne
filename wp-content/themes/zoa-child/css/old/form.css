@@ -1,0 +1,1042 @@
+.row fieldset {
+    border: none;
+}
+.form_sidecon > .btn-group {
+    margin-top: 40px;
+}
+.btn-group .btn:not(:last-child) {
+    margin-right: 5px;
+}
+body:not(.en) .birs_field_content .btn {
+	font-family: 游ゴシック, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+}
+body:not(.en) .confirm--booking__form__section .heading {
+	font-family: 游ゴシック, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+}
+body:not(.en).parent-reservation-thanks .page-header .page-subtitle {
+	font-family: 游ゴシック, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+}
+textarea::placeholder {
+    color: #888;
+}
+.page .acf-field textarea::placeholder {
+    color: #888;
+}
+.page-reservation {
+	background: #fcfcfc;
+	/*background: #f4f0f2;*/
+    padding: .75rem 0;
+}
+.form_sidecon {
+    background: #FFF;
+}
+.form_sideimg {
+	background-size: cover;
+	background-position: center;
+}
+.form_sideimg:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+	/*background: -moz-linear-gradient(top, rgba(120, 60, 90, 0) 0%, rgba(120, 60, 90, 0.65) 50%, rgba(120, 60, 90, 0.85) 100%);
+  
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(120, 60, 90, 0)), color-stop(100%, rgba(120, 60, 90, 0.85)));
+  
+  background: -webkit-linear-gradient(top, rgba(120, 60, 90, 0) 0%, rgba(120, 60, 90, 0.65) 50%, rgba(120, 60, 90, 0.85) 100%);
+ 
+  background: -o-linear-gradient(top, rgba(120, 60, 90, 0) 0%, rgba(120, 60, 90, 0.65) 50%, rgba(120, 60, 90, 0.85) 100%);
+  
+  background: -ms-linear-gradient(top, rgba(120, 60, 90, 0) 0%, rgba(120, 60, 90, 0.65) 50%, rgba(120, 60, 90, 0.85) 100%);
+  
+  background: linear-gradient(to bottom, rgba(120, 60, 90, 0) 0%, rgba(120, 60, 90, 0.65) 50%, rgba(120, 60, 90, 0.85) 100%);
+    mix-blend-mode: multiply;*/
+}
+.confirm-box {
+	margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: solid 1px #e8e8e8;
+}
+div#login-info.confirm-box {
+    border-bottom: none;
+    margin-bottom: 0;
+	padding-bottom: 0;
+}
+.booked-form .cf-block .field:last-child, body .booked-form .booked-calendar-fields .cf-block  {
+    margin-bottom: 0px;
+}
+.sideimg__content {
+    position: relative;
+    z-index: 1;
+}
+.form_sideimg * {
+    color: #FFF;
+}
+.form_sideimg p {
+    line-height: 1.6;
+	margin-bottom: 20px;
+	font-size: .875rem;
+	font-family: 游ゴシック, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+}
+.form_sideimg p:last-child {
+    margin-bottom: 0;
+}
+.sideimg__content .entry-title {
+    margin-bottom: 14px;
+    font-family: beloved-script, Courier, "Courier New", monospace;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-size: 4rem;
+}
+.page-reservation #birs_appointment_form .birs_form_field > label.check-label, .page-reservation #birs_appointment_form label.check-label {
+    position: relative;
+    display: inline-block;
+    padding-left: 25px;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 15px;
+}
+
+.page-reservation #birs_appointment_form .birs_form_field > label.check-label:before, .page-reservation #birs_appointment_form label.check-label:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: '';
+    transition: border .2s ease;
+    border: 1px solid #a8b2ba;
+    background: transparent;
+    margin-right: 0;
+    margin-top: -7.5px;
+}
+
+.page-reservation #birs_appointment_form .birs_form_field > label.check-label > input, .page-reservation #birs_appointment_form label.check-label > input {
+    display: none;
+}
+
+.page-reservation #birs_appointment_form .birs_form_field > label.check-label:after, .page-reservation #birs_appointment_form label.check-label:after {
+    position: absolute;
+    content: '';
+    transition: all .2s ease;
+    top: 1px;
+    left: 5px;
+    width: 6px;
+    height: 10px;
+    -webkit-transform: scale(0) rotate(45deg);
+    transform: scale(0) rotate(45deg);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+    border-top: 0;
+    border-left: 0;
+}
+.page-reservation #birs_appointment_form .birs_form_field > label.check-label.checked:after, .page-reservation #birs_appointment_form label.check-label.checked:after {
+	-webkit-transform: scale(1) rotate(45deg);
+    transform: scale(1) rotate(45deg);
+}
+#reservationForm #birs_appointment_form .birs_section {
+	margin: 0;
+	padding: 0;
+    border: none;
+    font-family: "proxima-nova",sans-serif;
+    font-weight: 300;
+    font-size: 1.35rem;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1px; */
+}
+body:not(.en) #reservationForm #birs_appointment_form .birs_section, body:not(.en) .appointment--confirm__form__title {
+	font-family: 'Noto Sans JP', 游ゴシック, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+}
+.rv_form_row .more_details {
+	font-family: "proxima-nova",sans-serif;
+    font-weight: 300;
+	letter-spacing: 1px;
+}
+body:not(.en) .rv_form_row .more_details {
+	font-weight: normal;
+	font-family: 游ゴシック, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+	font-size: .65rem;
+}
+.rv_form_row .double_button:hover, .rv_form_row .double_button:focus {
+	color: #FFF;
+}
+.rv_form_row .double_button:hover:before, .rv_form_row .double_button:hover:after, .rv_form_row .double_button:focus:before, .rv_form_row .double_button:focus:after {
+	border-color: #FFF;
+}
+/*Reservation Form Step*/
+ul.form__steps {
+    padding: 0;
+	margin: 0;
+	text-align: center;
+    list-style: none;
+	position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+ul.form__steps > li {
+	position: relative;
+	line-height: inherit;
+	-webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.form__step-container {
+    position: relative;
+}
+
+.form__step-nr {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    line-height: 46px;
+    text-align: center;
+    background: #FFF;
+    border: 1px solid #ddd;
+    color: #ddd;
+    border-radius: 50%;
+    position: relative;
+    z-index: 9;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease-in;
+	font-family: Courier, "Courier New", monospace;
+    font-weight: normal;
+}
+
+.is-active .form__step-nr {
+    color: #000;
+	border-color: #000;
+    /*transform: scale(1.3);*/
+}
+
+.form__step-title {
+    text-align: center;
+    line-height: 1;
+    display: block;
+    color: #ccc;
+    font-size: .875rem;
+}
+
+.is-active .form__step-title {
+    color: #555;
+}
+.form__step-container:before,.form__step-container:after {
+    content: ' ';
+    position: absolute;
+    top: 1.25rem;
+    left: 0;
+    height: 3px;
+    width: 50%;
+    background: transparent;
+    transition: background 0.3s ease;
+    z-index: 3;
+}
+.is-active .form__step-container:after {
+	background: #000;
+}
+.form__step-container:before {
+    top: .85rem;
+    left: -0.7rem;
+    height: 1.05rem;
+    width: 1.05rem;
+    background: #ddd;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    z-index: 5;
+}
+
+.form__step:first-child .form__step-container:before {
+    content: none;
+}
+
+ul.form__steps:after {
+    content: ' ';
+    position: absolute;
+    top: 1.25rem;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: #ddd;
+    z-index: 2;
+}
+/*Reservation Form*/
+.rv_form_row {
+	margin: 0;
+}
+.rv_form_row > div {
+	padding: 0;
+}
+#birs_appointment_form .row.rv_form_row {
+    margin-left: 0;
+    margin-right: 0
+}
+.rv_form_row > .form_sideimg, .rv_form_row > .form_sidecon, #birs_appointment_form .rv_form_row > .form_sideimg, #birs_appointment_form .rv_form_row > .form_sidecon {
+	padding: 2.5rem;
+}
+.rv_form_row > .form_sideimg, #birs_appointment_form .rv_form_row > .form_sideimg {
+	position: relative;
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+	-webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+	-webkit-align-items: center;
+    align-items: center;
+	-webkit-flex-flow: wrap;
+  flex-flow: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+	-webkit-justify-content: center;
+  justify-content: center;
+	/*-webkit-align-items: flex-end;
+  align-items: flex-end;*/
+}
+.form_sideimg .sideimg__content {
+    max-width: 460px;
+}
+.rv_form_row > .form_sidecon {
+	
+}
+#reservationForm {
+
+}
+#reservationFormConfirm {
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+fieldset.step {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.btn-group.birs_field_content .btn {
+    padding: 18px 36px;
+    line-height: 1;
+    height: auto;
+}
+/*Reservation ACF field*/
+.page-reservation #birs_appointment_form .birs_form_field > label {
+    font-weight: 400;
+    display: block;
+    margin-bottom: 12px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.15;
+	padding: 0;
+}
+body:not(.en) .page-reservation #birs_appointment_form .birs_form_field > label {
+	font-family: 游ゴシック, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+}
+body.en .page-reservation #birs_appointment_form .birs_form_field > label {
+	font-family: "proxima-nova",sans-serif;
+}
+.page-reservation #birs_appointment_form .birs_form_field {
+	padding: 0;
+}
+.page-reservation #birs_appointment_form .birs_form_field:not(:last-child), #birs_appointment_form ul > li > .acf-field:not(:last-child), .page-reservation #birs_appointment_form ul > li > .acf-field-group:not(.two_column) > .acf-input > .acf-fields > .acf-field:not(:last-child) {
+	margin-bottom: 24px;
+}
+#birs_appointment_form .acf-field-group.two_column .acf-input .acf-label {
+    display: none;
+}
+li .acf-fields > .acf-field {
+	border-top: none;
+}
+li .acf-field .acf-label label {
+    display: block;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+}
+li .acf-field input[type="text"], li .acf-field input[type="password"], li .acf-field input[type="number"], li .acf-field input[type="search"], li .acf-field input[type="email"], li .acf-field input[type="url"], li .acf-field textarea {
+    border: 1px solid #e8e8e8;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    height: auto;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    outline-width: 0;
+    -webkit-appearance: none;
+}
+
+#birs_appointment_form .acf-field .acf-label, .acf-field .acf-label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: normal;
+	line-height: 1.15;
+}
+li .acf-field input::placeholder, li .acf-field input:-ms-input-placeholder, li .acf-field input::-ms-input-placeholder, li .acf-input textarea::placeholder, li .acf-input textarea:-ms-input-placeholder, li .acf-input textarea::-ms-input-placeholder {
+	color: #888;
+}
+#birs_appointment_form .cancel_policy {
+    font-size: .75rem;
+    cursor: not-allowed;
+    background-color: #eeeeee;
+    padding: 1.25rem;
+    line-height: 1.45;
+    color: #777;
+}
+#birs_appointment_form .birs_form_field.birs_appointment_policy {
+    margin-bottom: 24px;
+}
+input.labelauty:checked + label {
+    background-color: #000;
+    color: #ffffff;
+	font-weight: 600;
+}
+input.labelauty:checked:not([disabled]) + label:hover {
+	background-color: #CCC;
+}
+/*date picker calendar*/
+#reservationForm .ui-datepicker .ui-datepicker-header {
+	box-shadow: 0 15px 50px rgba(2,3,3,.03);
+}
+
+#reservationForm .ui-datepicker .ui-datepicker-prev, #reservationForm .ui-datepicker .ui-datepicker-next, #reservationForm .ui-datepicker .ui-datepicker-title {
+	height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+}
+#reservationForm .ui-datepicker .ui-datepicker-prev {
+}
+#reservationForm .ui-datepicker .ui-datepicker-next {
+}
+#reservationForm .ui-datepicker .ui-datepicker-title {
+    font-weight: 300;
+}
+#reservationForm #birs_appointment_form .ui-datepicker {
+    width: 100%;
+    max-width: 450px;
+	border-color: rgba(0,0,0,.04);
+    border-radius: 0;
+    background-color: #FFF;
+    box-shadow: 0 5px 8px rgba(0,0,0,.05);
+}
+#reservationForm #birs_appointment_form .ui-datepicker table {
+	margin: 0;
+	/*background-color: #fCFCFC;*/
+	    background-color: #FFF;
+}
+#reservationForm #birs_appointment_form .ui-datepicker td {
+    height: 60px;
+    padding: 0;
+}
+#reservationForm #birs_appointment_form .ui-datepicker td span, #reservationForm .ui-datepicker td a {
+    min-height: 60px;
+    line-height: 60px;
+    padding: 0;
+}
+#reservationForm #birs_appointment_datepicker .ui-state-active {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    min-height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    color: #313131;
+    background: rgba(0,0,0,.08);
+}
+#reservationForm #birs_appointment_form .ui-datepicker th {
+    padding: 25px 0 0;
+    height: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0,0,0,.3);
+}
+#reservationForm .ui-datepicker td a {
+	color: #313131;
+}
+.acf-input > img {
+    max-width: 200px;
+}
+#reservationForm #birs_appointment_timeoptions {
+	padding: 0;
+	border: none;
+	font-size: 0;
+}
+#reservationForm #birs_appointment_timeoptions > span {
+    padding: 0;
+}
+#reservationForm #birs_appointment_timeoptions > span:not(:last-child) {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+#reservationForm #birs_appointment_timeoptions > span > a.birs_option {
+	font-family: "proxima-nova",sans-serif;
+    font-weight: 300;
+	font-size: 14px;
+	color: #313131;
+    padding: 6px 12px;
+    width: auto;
+    line-height: 1;
+    display: block;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+#reservationForm #birs_appointment_timeoptions > span > a.birs_option.selected {
+	background: #FFF;
+	color: #313131;
+	border-color: #313131;
+	font-weight: 400;
+}
+#reservationForm #birs_appointment_datepicker .ui-widget-header .ui-icon {
+    background: none;
+}
+#reservationForm .ui-datepicker .ui-datepicker-prev span:before, #reservationForm .ui-datepicker .ui-datepicker-next span:before {
+    font-family: 'oecicon';
+    display: inline-block;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-indent: 0;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+}
+#reservationForm .ui-datepicker .ui-datepicker-prev span:before {
+    content: "\ea0b";
+    left: 0;
+}
+#reservationForm .ui-datepicker .ui-datepicker-next span:before {
+	content: "\ea09";
+	right: 0;
+}
+/*Select*/
+#birs_appointment_form .selectbox__label {
+    padding: 0 40px 0 20px;
+}
+#birs_appointment_form .selectbox__option {
+	padding: 12px 20px;
+}
+/*Radio input*/
+#birs_appointment_form ul.acf-radio-list li, #birs_appointment_form ul.acf-checkbox-list li {
+    display: inline-block;
+    line-height: 1.15;
+}
+#birs_appointment_form ul.acf-radio-list li label {
+	display: inline-block;
+}
+ul.acf-radio-list li input.labelauty + label {
+}
+
+ul.acf-radio-list li:first-child input.labelauty + label {
+}
+
+ul.acf-radio-list li:last-child input.labelauty + label {
+}
+/*Labelty*/
+ul.acf-radio-list li input.labelauty + label, ul.acf-checkbox-list li input.labelauty + label {
+    display: inline-block;
+}
+/*Checkbox*/
+#birs_appointment_form ul.acf-checkbox-list > li:not(:last-child) {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+/*Textarea*/
+.page .acf-field textarea {
+    font-size: .85rem;
+}
+.page .acf-field-group > .acf-input > .acf-fields.-border {
+    border: none;
+}
+/*Confirm page*/
+#reservationFormConfirm .row > fieldset {
+    margin: 0;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.appointment--confirm__form__title {
+    margin-bottom: 24px;
+}
+[class*="col-"] > fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+[class*="col-"] > fieldset:not(:last-child) {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: solid 1px #e8e8e8;
+}
+.confirm--booking__form__section:not(:last-child) {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: solid 1px #e8e8e8;
+}
+
+.confirm--booking__form__section .heading {
+    font-weight: normal;
+}
+.form__steps_wrap {
+    background: #FFF;
+    border-bottom: solid 1px #e8e8e8;
+}
+#step-3 > .row > .form_sidecon > ul > li:not(.birs_form_field) >.acf-field.acf-field-group:first-child > .acf-label {
+    display: none;
+}
+#reservationFormConfirm .row > .confirm_info {
+    padding-bottom: 2rem;
+}
+.confirm-box .cancel_term_text {
+    border-top: 1px solid #e8e8e8;
+    padding: 24px 20px 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: .95rem;
+}
+#birs_appointment_form .justwrap > select.justselect {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    z-index: 0;
+}
+/*Customer Info Step2*/
+#reservationFormCustomer .row fieldset {
+    border: none;
+}
+#customer-form fieldset {
+    border: none;
+}
+/*Guest Step2*/
+#customer-form ul.tabs > li > a {
+	font-family: "proxima-nova",sans-serif;
+}
+div#customer-form .tab_content fieldset {
+    padding-top: 32px;
+}
+body #profile-login label, #profile-register label, #profile-forgot label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: 1.15;
+    color: #0a0a0a;
+}
+
+body #profile-login label + input, #profile-register label, #profile-forgot label + input {
+    margin-top: 0 !important;
+}
+
+#loginform p.login-username, #loginform p.login-password {
+    margin-bottom: 24px;
+}
+body #booked-profile-page .booked-tabs {
+    background: none !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+body #booked-profile-page .booked-tabs li a {
+    background: none;
+    color: #b2b2b2;
+}
+
+body #booked-profile-page .booked-tabs li.active a, body #booked-profile-page .booked-tabs li.active a:hover, body #booked-profile-page .booked-tabs li a:hover {
+    background: none !important;
+    color: #000 !important;
+}
+
+body #booked-profile-page .booked-tabs li.active a {
+    border: 1px solid #e8e8e8;
+    border-bottom-color: #FFF;
+    border-top: 3px solid #000;
+}
+
+body #booked-profile-page .booked-tab-content {
+    border-top: 1px solid #e8e8e8 !important;
+    margin-top: -1px;
+    border-radius: 0px !important;
+    border-color: #e8e8e8;
+}
+div#app-form > .booked-form {
+    padding-top: 0;
+}
+
+body #app-form .booked-form .booked-appointments {
+    padding-top: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+@media only screen and (min-width: 48em) {
+	.order--checkout__footer .button-submit {
+    width: 48%;
+    min-width: 270px;
+	}
+	#birs_appointment_form ul.acf-radio-list li:not(:last-child) {
+    margin-right: 6px;
+	}
+	.form__steps_wrap {
+    padding: 40px 0;
+	}
+	#birs_appointment_form .acf-field-group.two_column > .acf-input > .acf-fields, .acf-field-group > .acf-input > .acf-fields > .acf-field-group > .acf-input > .acf-fields, #birs_appointment_form .acf-field-group > .acf-input > .acf-fields > .acf-field-group > .acf-input > .acf-fields {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    position: relative;
+	border: none;
+	margin-left: -.75rem;
+    margin-right: -.75rem;
+	}
+	#birs_appointment_form .acf-field-group.two_column > .acf-input > .acf-fields > .acf-field, .acf-field-group > .acf-input > .acf-fields > .acf-field-group > .acf-input > .acf-fields > .acf-field, #birs_appointment_form .acf-field-group > .acf-input > .acf-fields > .acf-field-group > .acf-input > .acf-fields > .acf-field {
+    padding-left: .75rem;
+    padding-right: .75rem;
+	}
+	#birs_appointment_form .acf-field-group.two_column > .acf-input > .acf-fields > .acf-field, .acf-field-group > .acf-input > .acf-fields > .acf-field-group > .acf-input > .acf-fields > .acf-field, #birs_appointment_form .acf-field-group > .acf-input > .acf-fields > .acf-field-group > .acf-input > .acf-fields > .acf-field {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+	}
+	#step-3 > .row > .form_sidecon > ul > li:not(.birs_form_field) {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+	}
+	#step-3 > .row > .form_sidecon > ul > li:not(.birs_form_field) > .acf-field {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-left: .75rem;
+    padding-right: .75rem;
+	}
+	#birs_appointment_form #step-3 .birs_field_content {
+    max-width: 100%;
+    text-align: right;
+	}
+	.order--checkout__footer button#book_confirmed {
+    height: 46px;
+	}
+}
+@media only screen and (min-width: 768px) {
+	#reservationFormConfirm .row > .confirm_info:not(:last-child) {
+    border-right: 1px solid #efefef;
+	}
+}
+.page-reservation #birs_appointment_form .birs_error {
+    font-size: .75rem;
+    padding: .75rem;
+    color: #D8000C;
+    background-color: #FFBABA;
+    border: 1px solid;
+    margin-top: 12px;
+}
+.formError.inline, .formErrorContent {
+    font-size: .75rem;
+    color: #D8000C;
+    margin-top: 5px !important;
+	margin-bottom: 5px !important;
+}
+.acf-field input::placeholder {
+    color: #888;
+}
+#birs_appointment_form .birs_field_register {
+    margin-bottom: 24px;
+    font-size: .85rem;
+}
+@media only screen and (max-width: 47.9em) {
+	.page-reservation {
+		background: #FFF;
+	}
+	.order--checkout__footer.input-list {
+    text-align: center;
+	}
+	.order--checkout__footer.input-list .cta:last-child {
+    margin-top: 24px;
+	}
+	ul.acf-radio-list:before, ul.acf-radio-list:after {
+    content: none;
+	}
+	ul.acf-radio-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+	}
+	ul.acf-radio-list > li {
+    width: 48%;
+	}
+	#birs_appointment_form ul.acf-radio-list li label {
+    display: block;
+	}
+	#birs_appointment_form ul.acf-radio-list li:not(:last-child) {
+    margin-bottom: 12px;
+	}
+	.acf-fields > .acf-field .formErrorContent {
+		margin-bottom: 0 !important;
+	}
+	#birs_appointment_form li .acf-fields > .acf-field:not(:last-child) {
+    margin-bottom: 24px;
+	}
+	#reservationFormConfirm .row > .confirm_info {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: solid 1px #e8e8e8;
+	}
+	#reservationFormConfirm .row > .confirm_info:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+	}
+	ul.form__steps {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+	}
+	.form__steps_wrap > .form__steps {
+    padding: 20px 0 50px;
+	}
+	.form__step-container {
+    position: static;
+	}
+	.page-reservation {
+    padding: 0;
+	}
+	.form__step-container:before, .form__step-container:after, ul.form__steps:after {
+		content: none;
+	}
+	.form__step:not(.is-active) .form__step-title {
+    display: none;
+	}
+	.form__step-nr {
+	margin: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 37px;
+	}
+	.form__step-container, ul.form__steps > li {
+    position: static;
+	}
+	.is-active .form__step-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 14px;
+	}
+	body.parent-reservation #theme-page-header .page-header {
+    margin-bottom: 0;
+	}
+	.form_sideimg .sideimg__content {
+    max-width: 100%;
+	}
+	.sideimg__content .entry-title {
+    font-size: 2.5rem;
+	}
+	.form_sideimg p {
+    font-size: .75rem;
+	}
+	.double_button {
+    padding: 12px 24px;
+    margin-top: 0;
+	}
+	.rv_form_row > .form_sidecon, #birs_appointment_form .rv_form_row > .form_sidecon {
+    padding: 0 .75rem;
+	}
+	#reservationForm #birs_appointment_form .birs_section {
+    margin-top: 40px;
+	}
+}
+/*******************
+Register Form
+********************/
+.page-register .wppb-user-forms ul {
+    max-width: initial;
+}
+.page-register .wppb-form-field input, .page-register .wppb-form-field input[type="text"], .page-register .wppb-form-field input[type="number"], .page-register .wppb-form-field input[type="email"], .page-register .wppb-form-field input[type="url"], .page-register .wppb-form-field input[type="password"], .page-register .wppb-form-field input[type="search"], .page-register .wppb-form-field select, .page-register .wppb-form-field textarea, .page-register .wppb-checkboxes, .page-register .wppb-radios, .page-register #wppb-login-wrap .login-username input, .page-register #wppb-login-wrap .login-password input {
+	float: none;
+}
+.page-register .wppb-form-field input, .page-register .wppb-form-field input[type="text"], .page-register .wppb-form-field input[type="number"], .page-register .wppb-form-field input[type="email"], .page-register .wppb-form-field input[type="url"], .page-register .wppb-form-field input[type="password"], .page-register .wppb-form-field input[type="search"], .page-register .wppb-form-field textarea, .page-register #wppb-login-wrap .login-username input, .page-register #wppb-login-wrap .login-password input {
+	padding: .625rem .75rem;
+	width: 100%;
+    height: auto;
+	-webkit-transition: all 230ms ease-in-out;
+    transition: all 230ms ease-in-out;
+    background-color: #f6f6f6;
+    border-radius: 0;
+    border: solid 1px #f6f6f6;
+    outline-width: 0;
+    -webkit-appearance: none;
+    line-height: 1.25rem;
+}
+.page-register .wppb-form-field label.form-row__label {
+    float: none;
+    width: 100%;
+}
+.page-register .wppb-form-field label, .page-register #wppb-login-wrap .login-username label, .page-register #wppb-login-wrap .login-password label {
+	float: none;
+}
+.page-register .wppb-user-forms ul li:after {
+	content: none;
+}
+.page-register .wppb-user-forms ul li {
+    padding-bottom: 0;
+}
+.page-register .wppb-user-forms > ul > li:not(:last-child) {
+    margin-bottom: 24px;
+}
+.wppb-form-field span.value {
+    margin: 0;
+    font-style: normal;
+}
+.wppb-user-forms > ul > li > .value > ul.column_wrap > li > label, .column_wrap.has_label > .wppb-form-field > span.flex_input > label > span.wppb-required {
+    display: none;
+}
+.wppb-user-forms > ul > li > .value > ul.column_wrap > li > input, .wppb-user-forms > ul > li > .value > ul.column_wrap > li > select {
+	float: none;
+}
+ul.column_wrap {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.wppb-user-forms > ul > li > .value > ul.column_wrap.has_label > li.column_2.has_error {
+    display: block;
+}
+.column_wrap.has_label > .wppb-form-field > span.flex_input {
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+ul.column_wrap > li {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.page-register .wppb-user-forms ul li ul.column_wrap.name_column, .page-register .wppb-user-forms ul li ul.column_wrap.kana_column {
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+}
+
+.page-register .wppb-user-forms ul li ul.column_wrap.name_column li, .page-register .wppb-user-forms ul li ul.column_wrap.kana_column li {
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+.wppb-user-forms > ul > li > .value > ul.column_wrap > li.column_2 > label {
+    display: block;
+}
+.wppb-user-forms > ul > li > .value > ul.column_wrap.has_label > li.column_2 > label, .column_wrap.has_label > .wppb-form-field > span.flex_input > label {
+    width: 48px;
+	line-height: 42px;
+    text-align: center;
+	font-style: normal;
+    background-color: #f6f6f6;
+	position: relative;
+}
+.wppb-user-forms > ul > li > .value > ul.column_wrap.has_label > li.column_2 > label:after, .column_wrap.has_label > .wppb-form-field > span.flex_input > label:after {
+    content: "";
+    height: 26px;
+    width: 1px;
+    background: rgba(0,0,0,.15);
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+.wppb-user-forms > ul > li > .value > ul.column_wrap.has_label > li.column_2 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.wppb-user-forms > ul > li > .value > ul.column_wrap.has_label > li.column_2 > input {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.wppb-user-forms > ul > li > .value > ul.column_wrap.has_label > li.column_2 > label > span.wppb-required {
+    display: none;
+}
+.wppb-user-forms .formError.inline .formErrorContent {
+    margin: 0 !important;
+    padding: 0;
+}
+@media only screen and (min-width: 768px) {
+	.wppb-user-forms > ul > li {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	.page-register .wppb-form-field label.form-row__label {
+		width: 250px;
+		margin-bottom: 0;
+	}
+	.page-register .wppb-form-field span.value {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+	}
+}

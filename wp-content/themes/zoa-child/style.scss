@@ -1,0 +1,33 @@
+/*!
+Theme Name: Zoa Child
+Description: Zoa Child theme form Haintheme
+Author: haintheme
+Author URI: http://haintheme.com/
+Template: zoa
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+@import 'scss/foundation/iconfont';
+@import 'scss/foundation/fonts';
+@import 'scss/foundation/vairable';
+@import 'scss/foundation/mixin';
+@import 'scss/jplugin/validation';
+@import 'scss/defstyles';
+@import 'scss/parts/quadmenu-custom';
+@import 'scss/foundation/navigation';
+@import 'scss/common';
+@import 'scss/foundation/elements';
+@import 'scss/parts/woof';
+@import 'scss/parts/form';
+@import 'scss/parts/booked-calender';
+@import 'scss/parts/tryfityoursize';
+@import 'scss/pages/_contact';
+@import 'scss/pages/portfolio';
+@import 'scss/pages/rank';
+@import 'scss/pages/review';
+@import 'scss/pages/checkout';
+@import 'scss/pages/bundle-custom';
+@import 'scss/pages/blog';
+@import 'scss/pages/page-service';

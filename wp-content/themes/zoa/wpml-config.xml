@@ -1,0 +1,7 @@
+<wpml-config>
+    <admin-texts>
+        <key name="topbar_left" />
+        <key name="topbar_center" />
+        <key name="topbar_right" />
+    </admin-texts>
+</wpml-config>

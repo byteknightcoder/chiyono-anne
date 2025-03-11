@@ -1,0 +1,1795 @@
+# Copyright (C) 2018 Haintheme
+# This file is distributed under the same license as the Haintheme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Haintheme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: zoa/404.php:23
+msgid "404 image"
+msgstr ""
+
+#: zoa/404.php:40
+msgid "Go back"
+msgstr ""
+
+#: zoa/comments.php:9
+msgctxt "comment count"
+msgid "Comment ( 1 )"
+msgid_plural "Comments ( %s )"
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/comments.php:15
+msgid "Comment navigation"
+msgstr ""
+
+#: zoa/comments.php:16
+msgid "Older Comments"
+msgstr ""
+
+#: zoa/comments.php:17
+msgid "Newer Comments "
+msgstr ""
+
+#: zoa/comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: zoa/comments.php:41
+msgid "Email Address"
+msgstr ""
+
+#: zoa/comments.php:42, zoa/elementor/widgets/products.php:121
+msgid "Name"
+msgstr ""
+
+#: zoa/comments.php:47
+msgid "Leave a reply"
+msgstr ""
+
+#: zoa/comments.php:50
+msgid "Comment"
+msgstr ""
+
+#: zoa/comments.php:51
+msgid "Submit Now"
+msgstr ""
+
+#: zoa/inc/elementor.php:52
+msgid "Zoa Theme"
+msgstr ""
+
+#: zoa/inc/helpers.php:90, zoa/inc/helpers.php:101
+msgid "Logo image"
+msgstr ""
+
+#: zoa/inc/helpers.php:328, zoa/inc/helpers.php:651
+msgid "Blog thumbnail"
+msgstr ""
+
+#: zoa/inc/helpers.php:339
+msgid "Thumbnail"
+msgstr ""
+
+#: zoa/inc/helpers.php:409, zoa/inc/helpers.php:798
+msgid "Search..."
+msgstr ""
+
+#: zoa/inc/helpers.php:411
+msgid "Hit Enter to search or Esc key to close"
+msgstr ""
+
+#: zoa/inc/helpers.php:438
+msgid "Search Products..."
+msgstr ""
+
+#: zoa/inc/helpers.php:535
+msgctxt "Pagination previous button"
+msgid "%s Prev"
+msgstr ""
+
+#: zoa/inc/helpers.php:536
+msgctxt "Pagination next button"
+msgid "Next %s"
+msgstr ""
+
+#: zoa/inc/helpers.php:543
+msgid "Posts pagination"
+msgstr ""
+
+#: zoa/inc/helpers.php:555
+msgctxt "In Uncategorized Category"
+msgid "in "
+msgstr ""
+
+#: zoa/inc/helpers.php:569
+msgid "Pingback:"
+msgstr ""
+
+#: zoa/inc/helpers.php:569, zoa/inc/helpers.php:594
+msgid "Edit"
+msgstr ""
+
+#: zoa/inc/helpers.php:590
+msgid "Reply"
+msgstr ""
+
+#: zoa/inc/helpers.php:598
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: zoa/inc/helpers.php:632
+msgid "by "
+msgstr ""
+
+#: zoa/inc/helpers.php:669
+msgid "Sticky"
+msgstr ""
+
+#: zoa/inc/helpers.php:756
+msgid "Gallery image"
+msgstr ""
+
+#: zoa/inc/helpers.php:797, zoa/inc/woocommerce/general.php:129
+msgid "Search for:"
+msgstr ""
+
+#: zoa/inc/helpers.php:825
+msgid "Zoa custom font"
+msgstr ""
+
+#: zoa/inc/helpers.php:829
+msgid "Eina03"
+msgstr ""
+
+#: zoa/inc/helpers.php:1029, zoa/inc/helpers.php:1076, zoa/inc/helpers.php:1114, zoa/inc/helpers.php:1164, zoa/inc/menus.php:6
+msgid "Primary Menu"
+msgstr ""
+
+#: zoa/inc/helpers.php:1040, zoa/inc/helpers.php:1125, zoa/inc/helpers.php:1175, zoa/inc/hooks.php:358
+msgid "Add Menu"
+msgstr ""
+
+#: zoa/inc/helpers.php:1214
+msgid "Secondary Menu"
+msgstr ""
+
+#: zoa/inc/helpers.php:1234
+msgid "Tertiary Menu"
+msgstr ""
+
+#: zoa/inc/helpers.php:1512
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: zoa/inc/helpers.php:1514
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: zoa/inc/helpers.php:1514
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: zoa/inc/helpers.php:1521
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: zoa/inc/helpers.php:1521
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: zoa/inc/helpers.php:1525
+msgid "Tags: "
+msgstr ""
+
+#: zoa/inc/helpers.php:1528
+msgid "This post has no title"
+msgstr ""
+
+#: zoa/inc/helpers.php:1535
+msgid "Search results"
+msgstr ""
+
+#: zoa/inc/helpers.php:1537
+msgid "Archives"
+msgstr ""
+
+#: zoa/inc/helpers.php:1622
+msgid "Footer logo"
+msgstr ""
+
+#: zoa/inc/helpers.php:1716
+msgid "Login"
+msgstr ""
+
+#: zoa/inc/helpers.php:1721, zoa/inc/woocommerce/general.php:28
+msgid "Dashboard"
+msgstr ""
+
+#: zoa/inc/helpers.php:1729, zoa/inc/woocommerce/general.php:211
+msgid "Shopping cart"
+msgstr ""
+
+#: zoa/inc/helpers.php:1737, zoa/inc/woocommerce/general.php:30
+msgid "Logout"
+msgstr ""
+
+#: zoa/inc/hooks.php:145
+msgid "Blog Widget Area"
+msgstr ""
+
+#: zoa/inc/hooks.php:147
+msgid "Appears in the blog sidebar section of the site."
+msgstr ""
+
+#: zoa/inc/hooks.php:157
+msgid "Footer Widget Area"
+msgstr ""
+
+#: zoa/inc/hooks.php:159
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: zoa/inc/hooks.php:170
+msgid "Shop Widget Area"
+msgstr ""
+
+#: zoa/inc/hooks.php:172
+msgid "Appears in the sidebar of shop page."
+msgstr ""
+
+#: zoa/inc/hooks.php:182
+msgid "Subcription Widget Area"
+msgstr ""
+
+#: zoa/inc/hooks.php:184
+msgid "Appears in subscription section of 404 page."
+msgstr ""
+
+#: zoa/inc/hooks.php:207
+msgid "Zoa Demo Full"
+msgstr ""
+
+#: zoa/inc/hooks.php:255, zoa/elementor/widgets/category-box.php:210, zoa/inc/customizers/404.php:43
+msgid "Image"
+msgstr ""
+
+#: zoa/inc/hooks.php:470
+msgid "No results"
+msgstr ""
+
+#: zoa/inc/include-kirki.php:105
+msgid "Please install the Kirki plugin to take full advantage of this theme\s customizer capabilities"
+msgstr ""
+
+#: zoa/inc/include-kirki.php:107
+msgid "Install Kirki Toolkit now"
+msgstr ""
+
+#: zoa/inc/include-kirki.php:108
+msgid "Install Now"
+msgstr ""
+
+#: zoa/inc/include-kirki.php:122
+msgid "You have installed Kirki. Activate it to take advantage of this theme's features in the customizer."
+msgstr ""
+
+#: zoa/inc/include-kirki.php:124
+msgid "Activate Kirki Toolkit now"
+msgstr ""
+
+#: zoa/inc/include-kirki.php:125
+msgid "Activate Now"
+msgstr ""
+
+#: zoa/inc/menus.php:7
+msgid "Header Left Menu"
+msgstr ""
+
+#: zoa/inc/menus.php:8
+msgid "Header Right Menu"
+msgstr ""
+
+#: zoa/inc/menus.php:9
+msgid "Primary - Sidebar Menu"
+msgstr ""
+
+#: zoa/template-parts/content-none.php:3
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: zoa/template-parts/content-none.php:6
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: zoa/template-parts/content-none.php:8
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: zoa/template-parts/content.php:62
+msgid "Previous post thumbnail"
+msgstr ""
+
+#: zoa/template-parts/content.php:73
+msgid "Previous Post"
+msgstr ""
+
+#: zoa/template-parts/content.php:84
+msgid "Next post thumbnail"
+msgstr ""
+
+#: zoa/template-parts/content.php:89
+msgid "Next Post"
+msgstr ""
+
+#: zoa/template-parts/content.php:102
+msgid "Read more"
+msgstr ""
+
+#: zoa/template-parts/content.php:102
+msgid "about an interesting article to read"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:347
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:353
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:371
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:393, zoa/tgm-plugin/class-tgm-plugin-activation.php:920, zoa/tgm-plugin/class-tgm-plugin-activation.php:2626, zoa/tgm-plugin/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:394, zoa/tgm-plugin/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:395, zoa/tgm-plugin/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:1027
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:1027, zoa/tgm-plugin/class-tgm-plugin-activation.php:1030
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:1030
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:1214, zoa/tgm-plugin/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2075
+msgid "TGMPA v%s"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2435
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2481
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2485
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2489
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2493
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2696
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2701
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2707
+msgid "Activate %2$s"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3591
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3594
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3596
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3600
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3605
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3608
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3610
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3613
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:21
+msgid "Revolution Slider"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:26
+msgid "Elementor"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:31
+msgid "Envato Market"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:37
+msgid "Unyson"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:42
+msgid "Kirki"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:47
+msgid "Woocommerce"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:52
+msgid "Variation Swatches for WooCommerce"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:57
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:61
+msgid "Contact Form 7"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:65
+msgid "Instagram Feed"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:8
+msgid "Page menu layout"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:11, zoa/elementor/page-settings/page.php:28, zoa/elementor/page-settings/page.php:41, zoa/inc/customizers/menu-layout.php:370, zoa/inc/customizers/shop.php:22, zoa/framework-customizations/theme/options/posts/post.php:17, zoa/framework-customizations/theme/options/posts/post.php:34, zoa/framework-customizations/theme/options/posts/post.php:47, zoa/framework-customizations/theme/options/posts/product.php:16
+msgid "Default"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:12, zoa/elementor/page-settings/page.php:29, zoa/inc/customizers/general.php:22, zoa/inc/customizers/general.php:43, zoa/inc/customizers/menu-layout.php:16, zoa/inc/customizers/page-header.php:14, zoa/inc/customizers/shop.php:23, zoa/framework-customizations/theme/options/posts/post.php:18, zoa/framework-customizations/theme/options/posts/post.php:35
+msgid "Layout 1"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:13, zoa/elementor/page-settings/page.php:30, zoa/inc/customizers/general.php:23, zoa/inc/customizers/general.php:44, zoa/inc/customizers/menu-layout.php:25, zoa/inc/customizers/page-header.php:21, zoa/inc/customizers/shop.php:24, zoa/framework-customizations/theme/options/posts/post.php:19, zoa/framework-customizations/theme/options/posts/post.php:36
+msgid "Layout 2"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:14, zoa/inc/customizers/general.php:24, zoa/inc/customizers/menu-layout.php:34, zoa/framework-customizations/theme/options/posts/post.php:20
+msgid "Layout 3"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:15, zoa/inc/customizers/general.php:25, zoa/inc/customizers/menu-layout.php:44, zoa/framework-customizations/theme/options/posts/post.php:21
+msgid "Layout 4"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:16, zoa/inc/customizers/general.php:26, zoa/inc/customizers/menu-layout.php:53, zoa/framework-customizations/theme/options/posts/post.php:22, zoa/framework-customizations/theme/options/posts/post.php:23, zoa/framework-customizations/theme/options/posts/post.php:24
+msgid "Layout 5"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:17, zoa/inc/customizers/general.php:27, zoa/inc/customizers/menu-layout.php:62
+msgid "Layout 6"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:18, zoa/inc/customizers/general.php:28, zoa/inc/customizers/menu-layout.php:71
+msgid "Layout 7"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:25, zoa/inc/customizers/general.php:38, zoa/inc/customizers/shop.php:17
+msgid "Page header layout"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:31, zoa/elementor/page-settings/page.php:43, zoa/inc/customizers/general.php:45, zoa/inc/customizers/shop.php:25, zoa/framework-customizations/theme/options/posts/post.php:37, zoa/framework-customizations/theme/options/posts/post.php:49
+msgid "Disable"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:38
+msgid "Page footer layout"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:42, zoa/framework-customizations/theme/options/posts/post.php:48
+msgid "Enable"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:42
+msgid "Blog Posts"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:95, zoa/elementor/widgets/blog-posts.php:102, zoa/inc/customizers/shop-single.php:17, zoa/framework-customizations/theme/options/posts/product.php:11
+msgid "Layout"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:105
+msgid "Classic"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:106
+msgid "Overlap"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:115, zoa/elementor/widgets/products.php:45
+msgid "Columns"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:137, zoa/elementor/widgets/products.php:77
+msgid "Query"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:144, zoa/elementor/widgets/products.php:84
+msgid "Categories"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:154, zoa/elementor/widgets/products.php:104
+msgid "Posts Per Page"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:163, zoa/elementor/widgets/products.php:116
+msgid "Order By"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:167, zoa/elementor/widgets/products.php:122, zoa/inc/widgets/featured-product/class-widget-featured-product.php:96
+msgid "Date"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:168, zoa/elementor/widgets/category-box.php:318, zoa/elementor/widgets/landing-image.php:146, zoa/inc/customizers/404.php:13, zoa/inc/widgets/demo/class-widget-demo.php:77, zoa/inc/widgets/featured-product/class-widget-featured-product.php:51, zoa/inc/widgets/featured-product/class-widget-featured-product.php:95
+msgid "Title"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:169, zoa/elementor/widgets/products.php:123, zoa/inc/widgets/featured-product/class-widget-featured-product.php:99
+msgid "Random"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:177, zoa/elementor/widgets/products.php:131
+msgid "Order"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:181, zoa/elementor/widgets/products.php:135, zoa/inc/widgets/featured-product/class-widget-featured-product.php:113
+msgid "ASC"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:182, zoa/elementor/widgets/products.php:136, zoa/inc/widgets/featured-product/class-widget-featured-product.php:112
+msgid "DESC"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:194, zoa/elementor/widgets/products.php:62, zoa/elementor/widgets/products.php:148
+msgid "Pagination"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:201
+msgid "Show Pagination"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:203, zoa/elementor/widgets/category-box.php:168
+msgid "Show"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:204, zoa/elementor/widgets/category-box.php:169
+msgid "Hide"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:213, zoa/elementor/widgets/category-box.php:290, zoa/elementor/widgets/countdown.php:97, zoa/elementor/widgets/products.php:159
+msgid "Alignment"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:217, zoa/elementor/widgets/category-box.php:294, zoa/elementor/widgets/countdown.php:101, zoa/elementor/widgets/products.php:162
+msgid "Left"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:221, zoa/elementor/widgets/category-box.php:298, zoa/elementor/widgets/countdown.php:105, zoa/elementor/widgets/products.php:166
+msgid "Center"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:225, zoa/elementor/widgets/category-box.php:302, zoa/elementor/widgets/countdown.php:109, zoa/elementor/widgets/products.php:170
+msgid "Right"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:242
+msgid "Spacing"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:42, zoa/elementor/widgets/category-box.php:88
+msgid "Category Box"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:95
+msgid "Choose Layout"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:98
+msgid "Overlay"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:99
+msgid "Normal"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:109, zoa/elementor/widgets/landing-image.php:95
+msgid "Choose Image"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:133, zoa/elementor/widgets/landing-image.php:109
+msgid "Title Text"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:138, zoa/elementor/widgets/landing-image.php:114
+msgid "This is the heading"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:139, zoa/elementor/widgets/landing-image.php:115
+msgid "Enter your text title"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:147
+msgid "Title HTML tag"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:166
+msgid "Show Button"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:178
+msgid "Button Text"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:183
+msgid "Click here"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:184
+msgid "Enter your button title"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:195, zoa/elementor/widgets/landing-image.php:123
+msgid "Link to"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:200, zoa/elementor/widgets/landing-image.php:128
+msgid "https://your-link.com"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:221, zoa/elementor/widgets/category-box.php:327
+msgid "Bottom Spacing"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:243, zoa/elementor/widgets/countdown.php:127, zoa/elementor/widgets/landing-image.php:138
+msgid "Content"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:251
+msgid "Position"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:254
+msgid "Top Left"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:255
+msgid "Top Center"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:256
+msgid "Top Right"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:257
+msgid "Center Left"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:258
+msgid "Center Center"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:259
+msgid "Center Right"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:260
+msgid "Bottom Left"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:261
+msgid "Bottom Center"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:262
+msgid "Bottom Right"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:275, zoa/elementor/widgets/category-box.php:347, zoa/elementor/widgets/category-box.php:428
+msgid "Padding"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:362, zoa/elementor/widgets/category-box.php:443, zoa/elementor/widgets/countdown.php:143, zoa/elementor/widgets/countdown.php:172
+msgid "Color"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:378, zoa/inc/customizers/menu-layout.php:716
+msgid "Background Color"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:403
+msgid "Button"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:488
+msgid "Category Box Image"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:16, zoa/elementor/widgets/countdown.php:31
+msgid "Countdown"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:38
+msgid "Due Date"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:51
+msgid "Days Label"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:53
+msgid "Days"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:60
+msgid "Hours Label"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:62
+msgid "Hours"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:69
+msgid "Minutes Label"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:71
+msgid "Minutes"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:78
+msgid "Seconds Label"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:80
+msgid "Seconds"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:89
+msgid "Boxes"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:135
+msgid "Digits"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:163
+msgid "Labels"
+msgstr ""
+
+#: zoa/elementor/widgets/landing-image.php:43, zoa/elementor/widgets/landing-image.php:88, zoa/elementor/widgets/landing-image.php:178
+msgid "Landing Image"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:20
+msgid "Woo - Product Flash Sale"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:35, zoa/elementor/widgets/products.php:37, zoa/inc/customizers/general.php:7, zoa/inc/customizers/menu-layout.php:85, zoa/inc/customizers/menu-layout.php:230, zoa/inc/customizers/menu-layout.php:381, zoa/inc/customizers/menu-layout.php:538, zoa/framework-customizations/theme/options/posts/post.php:9, zoa/framework-customizations/theme/options/posts/product.php:7
+msgid "General"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:42
+msgid "Sale products"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:51
+msgid "Thumbnail size"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:94, zoa/inc/woocommerce/content-product.php:175, zoa/inc/woocommerce/content-product.php:201, zoa/inc/woocommerce/content-product.php:253, zoa/inc/woocommerce/content-product.php:281, zoa/inc/woocommerce/content-single-product.php:12, zoa/inc/woocommerce/content-single-product.php:290, zoa/inc/woocommerce/content-single-product.php:320
+msgid "Product image"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:115
+msgid "You are not yet set sale schedule for this product"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:128
+msgid "days"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:133
+msgid "hours"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:138
+msgid "mins"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:143
+msgid "secs"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:179
+msgid "Add to cart"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:185
+msgid "This widget support simple product only"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:20
+msgid "Woo - Products"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:64, zoa/inc/customizers/shop-single.php:71, zoa/inc/customizers/shop-single.php:86, zoa/inc/customizers/shop-single.php:101, zoa/inc/customizers/shop-single.php:116, zoa/inc/customizers/shop-single.php:131, zoa/framework-customizations/theme/options/posts/post.php:77, zoa/framework-customizations/theme/options/posts/post.php:90
+msgid "Yes"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:65, zoa/inc/customizers/shop-single.php:72, zoa/inc/customizers/shop-single.php:87, zoa/inc/customizers/shop-single.php:102, zoa/inc/customizers/shop-single.php:117, zoa/inc/customizers/shop-single.php:132, zoa/framework-customizations/theme/options/posts/post.php:73, zoa/framework-customizations/theme/options/posts/post.php:86
+msgid "No"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:94
+msgid "Exclude product"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:120, zoa/inc/widgets/featured-product/class-widget-featured-product.php:94
+msgid "ID"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:187, zoa/inc/customizers/menu-layout.php:865, zoa/inc/customizers/page-header.php:33, zoa/inc/customizers/page-header.php:82
+msgid "Space"
+msgstr ""
+
+#: zoa/inc/customizers/404.php:7
+msgid "404 Page"
+msgstr ""
+
+#: zoa/inc/customizers/404.php:23
+msgid "Subtitle"
+msgstr ""
+
+#: zoa/inc/customizers/404.php:33
+msgid "Description"
+msgstr ""
+
+#: zoa/inc/customizers/blog.php:6
+msgid "Blog"
+msgstr ""
+
+#: zoa/inc/customizers/blog.php:14
+msgid "Blog title"
+msgstr ""
+
+#: zoa/inc/customizers/blog.php:31, zoa/inc/customizers/shop.php:59
+msgid "Sidebar position"
+msgstr ""
+
+#: zoa/inc/customizers/color.php:7
+msgid "Colors"
+msgstr ""
+
+#: zoa/inc/customizers/color.php:19
+msgid "Primary color"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:12, zoa/framework-customizations/theme/options/posts/post.php:44
+msgid "Footer"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:23
+msgid "Show Footer"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:27, zoa/inc/customizers/general.php:60, zoa/inc/customizers/general.php:76, zoa/inc/customizers/general.php:91, zoa/inc/customizers/general.php:106, zoa/inc/customizers/menu-layout.php:100, zoa/inc/customizers/menu-layout.php:245, zoa/inc/customizers/menu-layout.php:396, zoa/inc/customizers/menu-layout.php:553, zoa/inc/customizers/menu-layout.php:704, zoa/inc/customizers/menu-layout.php:856, zoa/inc/customizers/page-header.php:133, zoa/inc/customizers/shop.php:81, zoa/inc/customizers/shop.php:102, zoa/inc/customizers/shop.php:116, zoa/inc/customizers/shop.php:131, zoa/inc/customizers/shop.php:146
+msgid "Off"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:28, zoa/inc/customizers/general.php:61, zoa/inc/customizers/general.php:77, zoa/inc/customizers/general.php:92, zoa/inc/customizers/general.php:107, zoa/inc/customizers/menu-layout.php:99, zoa/inc/customizers/menu-layout.php:244, zoa/inc/customizers/menu-layout.php:395, zoa/inc/customizers/menu-layout.php:552, zoa/inc/customizers/menu-layout.php:703, zoa/inc/customizers/menu-layout.php:855, zoa/inc/customizers/page-header.php:134, zoa/inc/customizers/shop.php:80, zoa/inc/customizers/shop.php:103, zoa/inc/customizers/shop.php:117, zoa/inc/customizers/shop.php:132, zoa/inc/customizers/shop.php:147
+msgid "On"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:44
+msgid "Column widgets"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:73
+msgid "Footer Logo"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:127
+msgid "Copyright"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:151
+msgid "Right content"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:17, zoa/framework-customizations/theme/options/posts/post.php:14
+msgid "Menu layout"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:20
+msgid "Choose your menu preset to apply for all pages"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:41
+msgid "Choose your page header preset to apply for all pages"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:55
+msgid "Preloader"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:58
+msgid "This option showing a loading animation while your site loads"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:71
+msgid "Smooth scrolling"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:74
+msgid "Smooth scrolling for the web"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:87
+msgid "Sticky Header Menu"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:102
+msgid "Sticky On Mobile"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:7
+msgid "Menu Layout"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:95, zoa/inc/customizers/menu-layout.php:240, zoa/inc/customizers/menu-layout.php:391, zoa/inc/customizers/menu-layout.php:548, zoa/inc/customizers/menu-layout.php:699, zoa/inc/customizers/menu-layout.php:851, zoa/inc/customizers/topbar.php:8
+msgid "Topbar"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:111, zoa/inc/customizers/menu-layout.php:256, zoa/inc/customizers/menu-layout.php:407
+msgid "Menu background"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:133
+msgid "Highlight menu color"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:162, zoa/inc/customizers/menu-layout.php:306, zoa/inc/customizers/menu-layout.php:469, zoa/inc/customizers/menu-layout.php:592, zoa/inc/customizers/menu-layout.php:775, zoa/inc/customizers/menu-layout.php:951
+msgid "Menu font"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:172, zoa/inc/customizers/menu-layout.php:316, zoa/inc/customizers/menu-layout.php:479, zoa/inc/customizers/menu-layout.php:602, zoa/inc/customizers/menu-layout.php:786, zoa/inc/customizers/menu-layout.php:962
+msgid "Parent menu"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:199, zoa/inc/customizers/menu-layout.php:343, zoa/inc/customizers/menu-layout.php:508, zoa/inc/customizers/menu-layout.php:629, zoa/inc/customizers/menu-layout.php:821, zoa/inc/customizers/menu-layout.php:990
+msgid "Submenu"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:277, zoa/inc/customizers/menu-layout.php:563, zoa/inc/customizers/menu-layout.php:738, zoa/inc/customizers/menu-layout.php:914
+msgid "Highlight color"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:428
+msgid "Hightlight menu color"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:457
+msgid "Nav menu"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:657
+msgid "Sidebar Menu Links"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:671
+msgid "Sidebar Menu Social"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:685
+msgid "Sidebar Menu Copyright"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:892
+msgid "background Color"
+msgstr ""
+
+#: zoa/inc/customizers/page-header.php:6
+msgid "Page Header"
+msgstr ""
+
+#: zoa/inc/customizers/page-header.php:128
+msgid "Shop single navigation"
+msgstr ""
+
+#: zoa/inc/customizers/page-header.php:131
+msgid "This option available only on product page"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:7
+msgid "Shop single"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:22, zoa/framework-customizations/theme/options/posts/product.php:17
+msgid "List"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:23, zoa/framework-customizations/theme/options/posts/product.php:18
+msgid "Grid"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:24, zoa/framework-customizations/theme/options/posts/product.php:19
+msgid "Vertical carousel"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:25, zoa/framework-customizations/theme/options/posts/product.php:20
+msgid "Horizontal carousel"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:34
+msgid "Related product"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:50
+msgid "Related columns"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:66
+msgid "Ajax single add to cart"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:81
+msgid "Gallery lightbox"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:96
+msgid "Show Category"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:111
+msgid "Show Tag"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:126
+msgid "Show Social Share"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:7
+msgid "Shop"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:20
+msgid "Choose your page header preset to apply for woocommerce pages"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:40
+msgid "Shop Title"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:75
+msgid "Flexible Sidebar"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:97
+msgid "Search only product"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:98
+msgid "Show only products in search results"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:112
+msgid "Ajax Search for Shop Products"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:127
+msgid "Quick Actions on Mobile"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:142
+msgid "Sticky Add to Cart and Checkout Button"
+msgstr ""
+
+#: zoa/inc/customizers/title-tagline.php:7
+msgid "Retina Logo"
+msgstr ""
+
+#: zoa/inc/customizers/title-tagline.php:16
+msgid "Secondary Logo"
+msgstr ""
+
+#: zoa/inc/customizers/title-tagline.php:17
+msgid "Upload a logo for transparent menu with dark hero image"
+msgstr ""
+
+#: zoa/inc/customizers/title-tagline.php:26
+msgid "Logo Width"
+msgstr ""
+
+#: zoa/inc/customizers/topbar.php:19
+msgid "Topbar Color"
+msgstr ""
+
+#: zoa/inc/customizers/topbar.php:38
+msgid "Topbar Background Color"
+msgstr ""
+
+#: zoa/inc/customizers/topbar.php:57
+msgid "Topbar Left Content"
+msgstr ""
+
+#: zoa/inc/customizers/topbar.php:71
+msgid "Topbar Center Content"
+msgstr ""
+
+#: zoa/inc/customizers/topbar.php:73
+msgid "Summer sale discount 50&#37; off."
+msgstr ""
+
+#: zoa/inc/customizers/topbar.php:81
+msgid "Topbar Right Content"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:7
+msgid "Typography"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:19
+msgid "Body font"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:83
+msgid "Heading font"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:229
+msgid "H1"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:230, zoa/inc/customizers/typography.php:249, zoa/inc/customizers/typography.php:268, zoa/inc/customizers/typography.php:287, zoa/inc/customizers/typography.php:306, zoa/inc/customizers/typography.php:325
+msgid "Font size"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:248
+msgid "H2"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:267
+msgid "H3"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:286
+msgid "H4"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:305
+msgid "H5"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:324
+msgid "H6"
+msgstr ""
+
+#: zoa/inc/woocommerce/archive.php:97
+msgid "Swatch image"
+msgstr ""
+
+#: zoa/inc/woocommerce/cart.php:19
+msgid "Clear Shopping Cart"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-product.php:22
+msgid "Sale!"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-product.php:142, zoa/inc/woocommerce/content-single-product.php:399
+msgid "Something is wrong, please try again later..."
+msgstr ""
+
+#: zoa/inc/woocommerce/content-product.php:231
+msgid "Sorry, nothing found"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-single-product.php:331, zoa/framework-customizations/theme/options/posts/post.php:100, zoa/framework-customizations/theme/options/posts/product.php:25
+msgid "Video"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-single-product.php:359
+msgid "You cannot add that amount of this product to the cart because there is not enough stock."
+msgstr ""
+
+#: zoa/inc/woocommerce/content-single-product.php:360
+msgid "You cannot add that amount to the cart - we have %1$s in stock and you already have %1$s in your cart"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-single-product.php:361
+msgid "Please enter a valid quantity for this product"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-single-product.php:490
+msgid "SKU:"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-single-product.php:490
+msgid "N/A"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-single-product.php:495
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/inc/woocommerce/content-single-product.php:499
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoa/inc/woocommerce/general.php:25
+msgid "Login / Register"
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:65
+msgid "Toggle Shop Sidebar"
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:130
+msgid "Search...."
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:261
+msgid "Sold out"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/size-guide/hooks.php:31
+msgid "Size Guide options"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/size-guide/manifest.php:8
+msgid "Size Guide"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/size-guide/manifest.php:9
+msgid "This extension adds size guide to your WooCommerce single product page."
+msgstr ""
+
+#: zoa/framework-customizations/extensions/size-guide/posts.php:10, zoa/framework-customizations/extensions/size-guide/posts.php:11
+msgid "Size Guides"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/size-guide/posts.php:12
+msgid "Add New Size Guide"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/size-guide/posts.php:13
+msgid "Edit Size Guide"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/size-guide/posts.php:14
+msgid "All Size Guides"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/social-share/hooks.php:24
+msgid "Share:"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/social-share/manifest.php:8
+msgid "Social Share"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/social-share/manifest.php:9
+msgid "This extension adds social share buttons to your WooCommerce single product page."
+msgstr ""
+
+#: zoa/inc/widgets/demo/class-widget-demo.php:25
+msgid "Ahihi"
+msgstr ""
+
+#: zoa/inc/widgets/demo/class-widget-demo.php:27
+msgid "De comn mo"
+msgstr ""
+
+#: zoa/inc/widgets/demo/class-widget-demo.php:76, zoa/inc/widgets/product-filter/class-widget-product-filter.php:45
+msgid "Filter By"
+msgstr ""
+
+#: zoa/inc/widgets/demo/class-widget-demo.php:82
+msgid "Attribute"
+msgstr ""
+
+#: zoa/inc/widgets/demo/class-widget-demo.php:88
+msgid "Query type"
+msgstr ""
+
+#: zoa/inc/widgets/demo/class-widget-demo.php:90
+msgid "AND"
+msgstr ""
+
+#: zoa/inc/widgets/demo/class-widget-demo.php:91
+msgid "OR"
+msgstr ""
+
+#: zoa/inc/widgets/featured-product/class-widget-featured-product.php:7
+msgid "Display a slider featured products."
+msgstr ""
+
+#: zoa/inc/widgets/featured-product/class-widget-featured-product.php:11
+msgid "Featured Carousel Product"
+msgstr ""
+
+#: zoa/inc/widgets/featured-product/class-widget-featured-product.php:40
+msgid "Featured Products"
+msgstr ""
+
+#: zoa/inc/widgets/featured-product/class-widget-featured-product.php:63
+msgid "Product per slide:"
+msgstr ""
+
+#: zoa/inc/widgets/featured-product/class-widget-featured-product.php:75
+msgid "Max of products:"
+msgstr ""
+
+#: zoa/inc/widgets/featured-product/class-widget-featured-product.php:87
+msgid "Orderby:"
+msgstr ""
+
+#: zoa/inc/widgets/featured-product/class-widget-featured-product.php:97
+msgid "Modified"
+msgstr ""
+
+#: zoa/inc/widgets/featured-product/class-widget-featured-product.php:98
+msgid "Author"
+msgstr ""
+
+#: zoa/inc/widgets/featured-product/class-widget-featured-product.php:105
+msgid "Order:"
+msgstr ""
+
+#: zoa/inc/widgets/product-filter/class-widget-product-filter.php:7
+msgid "Display a Product filter"
+msgstr ""
+
+#: zoa/inc/widgets/product-filter/class-widget-product-filter.php:11
+msgid "Product Filter"
+msgstr ""
+
+#: zoa/inc/widgets/product-filter/class-widget-product-filter.php:53
+msgid "Title:"
+msgstr ""
+
+#: zoa/inc/widgets/product-filter/class-widget-product-filter.php:65
+msgid "Attribute:"
+msgstr ""
+
+#: zoa/inc/widgets/product-filter/class-widget-product-filter.php:72
+msgid "Select"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:31
+msgid "Page header"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:60
+msgid "Gallery"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:63
+msgid "Upload"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:64
+msgid "Multiple Images for Gallery post format."
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:68
+msgid "Show arrows"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:81
+msgid "Show dots"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:103
+msgid "Video embed"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:106
+msgid "Youtube"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:107
+msgid "Vimeo"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:112
+msgid "Video ID"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:113
+msgid "Just paste the bold part of the video's URL: %1$s%2$s"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:126
+msgid "Audio"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:129
+msgid "Input"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:130
+msgid "Enter iframe for Audio format"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:139
+msgid "Post Customizing"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:12
+msgid "Default: Customizer -> Shop single -> Layout"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:27
+msgid "Add a video url of the product"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:33
+msgid "Label"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:37
+msgid "Text"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:39
+msgid "Add custom label for this product, example: Hot"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:43
+msgid "Text color"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:49
+msgid "Background color"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:59
+msgid "Product Customizing"
+msgstr ""
+
+#: zoa/inc/widgets/featured-product/views/widget.php:49
+msgid "Product Image"
+msgstr ""

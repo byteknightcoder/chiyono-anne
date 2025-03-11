@@ -1,0 +1,76 @@
+/* CSS Document */
+@media screen and (min-width: 992px) {
+	#quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item.view_all_link > a {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: .1em;
+    font-size: .75rem;
+	}
+	
+}
+@media screen and (max-width: 991px) {
+	.menu-layout-custom .header-container .header-logo {
+		padding: 10px 0;
+	}
+	.header-logo>.theme-logo {
+    width: 100px;
+	}
+	#theme-menu-layout .nav-container #quadmenu:not(.quadmenu-is-horizontal).quadmenu-mobile-shadow-show {
+    box-shadow: none;
+	}
+	#theme-menu-layout .nav-container.nav--active > nav#quadmenu {
+    min-height: 1px;
+	}
+	.header__user__link:not(.minicart__trigger) {
+    display: block;
+    padding: 20px 24px;
+    background-color: #fff;
+    border-bottom: solid 1px #e8e8e8;
+    font-size: .875rem;
+    -webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
+	}
+	.header__user__link {
+    position: relative;
+	}
+	.header__user.display--mid-only, .header__sett {
+    margin-top: 24px;
+	}
+	.header__secondary__content #quadmenu.quadmenu-custom_theme_1 .quadmenu-navbar-nav > li:not(.quadmenu-item-type-button).quadmenu-has-link.quadmenu-item-has-children.open {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+	}
+	a#headerAccountLink:before {
+    content: "\ea31";
+    display: inline-block;
+    font-weight: normal;
+    font-family: 'oecicon';
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+    margin-right: 8px;
+    font-size: 115%;
+	}
+	a#headerWishlistLink:before {
+    content: "\ea2c";
+    display: inline-block;
+    font-weight: normal;
+    font-family: 'oecicon';
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+    margin-right: 8px;
+    font-size: 115%;
+	}
+}

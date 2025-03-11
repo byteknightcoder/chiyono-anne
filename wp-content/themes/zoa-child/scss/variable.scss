@@ -1,0 +1,30 @@
+$breakpoint-up: (
+  "xxs": "screen and (min-width: 340px)",
+  "xs": "screen and (min-width: 480px)",
+  "sm": "screen and (min-width: 575px)",
+  "md": "screen and (min-width: 768px)",
+  "lm": "screen and (min-width: 901px)",
+  "lg": "screen and (min-width: 1202px)",
+  "xl": "screen and (min-width: 1367px)",
+) !default;
+// max-width
+$breakpoint-down: (
+  "xxs": "screen and (max-width: 339px)",
+  "xs": "screen and (max-width: 479px)",
+  "sm": "screen and (max-width: 576px)",
+  "md": "screen and (max-width: 767px)",
+  "lm": "screen and (max-width: 900px)",
+  "lg": "screen and (max-width: 1201px)",
+  "xl": "screen and (max-width: 1366px)",
+) !default;
+// @mixinの定義
+@mixin mq-up($breakpoint: md) {
+  @media #{map-get($breakpoint-up, $breakpoint)} {
+    @content;
+  }
+}
+@mixin mq-down($breakpoint: md) {
+  @media #{map-get($breakpoint-down, $breakpoint)} {
+    @content;
+  }
+}

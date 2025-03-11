@@ -1,0 +1,172 @@
+.fit_data_options {
+  width: 100%;
+}
+
+.custom_option {
+  &__total_table {
+    border: none;
+
+    td {
+      padding: 12px;
+      border: none;
+      border-bottom: 1px solid #eaeaea;
+
+      &.tr_label {
+        font-size: 0.85rem;
+        width: 180px;
+        text-align: left;
+      }
+    }
+  }
+
+  .selected_note {
+    margin-top: 1.5rem;
+    line-height: 1.45;
+
+    .ttl {
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 0.85rem;
+
+      @include mq-down(xxs) {
+        font-size: 0.75rem;
+      }
+    }
+  }
+
+  &__container {
+    .extra_fee {
+      font-family: var(--fontPrice);
+      font-weight: 400;
+      letter-spacing: 0.1em;
+    }
+  }
+}
+
+.fit_data_options {
+  margin-bottom: 1rem;
+  list-style-type: none;
+  counter-reset: css-counter 0;
+
+  >div {
+    counter-increment: css-counter 1;
+  }
+
+  .fit_title {
+    font-weight: bold;
+    padding-left: 1.5rem;
+    position: relative;
+
+    &:before,
+    &:after {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &:before {
+      content: counter(css-counter) "";
+      font-weight: 400;
+      width: 1rem;
+      line-height: 1;
+      display: inline-block;
+      text-align: center;
+      font-size: 85%;
+    }
+
+    +.fit_body {
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+
+      .button {
+        margin-top: 1.75rem;
+      }
+
+      .help_txt {
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .selected_output {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-family: var(--fontBody);
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+}
+
+#ch_agree_term_try_fit {
+  padding: 0.75rem 2.125rem;
+  height: 48px;
+  background: #000;
+  color: #fff;
+  border-color: #000;
+  letter-spacing: 0.05em;
+  margin-top: 1rem;
+}
+
+#read_term_of_use_try_fit {
+  cursor: pointer;
+}
+
+.ch_next_disable {
+  opacity: 1 !important;
+  background-color: transparent !important;
+  border-color: #ddd !important;
+  color: #ddd !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
+.about_optional {
+  margin-top: 1.5rem;
+
+  &__description {
+    display: flex;
+
+    .img {
+      width: 35%;
+    }
+
+    .txt {
+      padding-left: 1rem;
+      line-height: 1.65;
+      font-size: 0.8rem;
+
+      .ttl {
+        font-size: 0.9rem;
+        line-height: 1.45;
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+.order__summary__row.order-deposit-notice {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #cc0000;
+}
+
+.deposit__item {
+  margin-top: 5px;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+
+  .value {
+    padding-left: 6px;
+  }
+}
+
+p {
+  &.slick_p {
+    padding: 0 2rem;
+  }
+}

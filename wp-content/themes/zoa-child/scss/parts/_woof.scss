@@ -1,0 +1,465 @@
+/*WOOF Custom Style*/
+/*WOOF Loading*/
+#woof_html_buffer {
+  text-indent: -9999px;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  background: rgba(255, 255, 255, .8);
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+#woof_html_buffer:before {
+  content: "";
+  display: block;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  background: none;
+  border: 3px solid #c7ccd1;
+  border-top: 3px solid #36383F;
+  position: fixed;
+  top: 48%;
+  left: 48%;
+}
+
+/*WOOF Filter Toggle*/
+.woof_redraw_zone>.woof_container.woof_submit_search_form_container h3.toggle__name {
+  font-weight: 400;
+}
+
+.WOOF_Widget .woof_container_inner>h4 {
+  padding: 0;
+  position: relative;
+  text-transform: uppercase;
+  font-family: var(--fontPrimary);
+  font-size: .85rem;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+.WOOF_Widget .woof_container_inner>h4>.woof_front_toggle {
+  float: none;
+  position: absolute;
+  line-height: inherit;
+  width: 100%;
+  left: 0;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.WOOF_Widget .woof_container_inner>h4>.woof_front_toggle:after {
+  position: absolute;
+  right: 0;
+  text-indent: 0px;
+  content: "\ea28";
+  font-size: 1.25rem;
+  speak: none;
+  font-family: 'oecicon';
+  font-style: normal;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+}
+
+.woof_container_inner>h4>.woof_front_toggle.woof_front_toggle_opened:after {
+  content: "\ea29";
+}
+
+.woof_redraw_zone>.woof_container {
+  border-bottom: solid 1px #e8e8e8;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.woof_redraw_zone>.woof_container:first-child {
+  border-top: solid 1px #e8e8e8;
+}
+
+.woof_block_html_items .woof_list li {
+  padding: 0 !important;
+  margin: 0 0 18px 0 !important;
+  font-size: .75rem;
+  line-height: 1.15;
+  text-transform: initial;
+  font-family: var(--fontPrimary);
+}
+
+.woof_block_html_items>ul.woof_list {
+  padding: 0;
+}
+
+/*Checkbox Style*/
+.woof_block_html_items .woof_list li .icheckbox_minimal-aero {
+  margin-top: 0;
+}
+
+.woof_block_html_items .woof_list li .icheckbox_minimal-aero {
+  margin-top: 0;
+  width: 12px;
+  height: 12px;
+  background: none;
+  border: 1px solid #000;
+}
+
+.woof_block_html_items .woof_list li .icheckbox_minimal-aero:before {
+  content: "\ea3b";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: -1px;
+  left: 0px;
+  display: inline-block;
+  font-family: 'gecicon';
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 0;
+}
+
+.woof_block_html_items .woof_list li .icheckbox_minimal-aero.checked:before {
+  opacity: 1;
+}
+
+/*Color Pallette*/
+.woof_list_color .woof_color_term {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 1px solid #aaa;
+}
+
+.woof_list_color .woof_color_term.checked {
+  border: 1px #000 solid;
+}
+
+/*WOOF Label*/
+.woocommerce .woof_list_label .woof_label_term {
+  width: 100%;
+  padding: .65rem .75rem;
+  height: auto;
+  line-height: 1;
+  position: relative;
+  font-family: var(--fontPrimary);
+  text-align: left;
+}
+
+.woocommerce .woof_list_label .woof_label_term {
+  width: 100%;
+  padding: .65rem .75rem;
+  height: auto;
+  line-height: 1;
+  position: relative;
+  font-family: var(--fontPrimary);
+  text-align: left;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.woocommerce .woof_list_label li .woof_label_term:hover,
+.woocommerce .woof_list_label li .woof_label_term.checked {
+  background-color: #FFF;
+  border-color: #000;
+  color: #000;
+}
+
+.woof_block_html_items>ul.woof_list.woof_list_label>li {
+  display: block;
+  margin-bottom: 5px !important;
+}
+
+.woof_list_label li .woof_label_count {
+  display: none;
+}
+
+.woof_list_label .woof_label_term:after {
+  content: "";
+  font-size: 14px;
+  font-family: 'gecicon';
+  display: inline-block;
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  right: .75rem;
+}
+
+.woof_list_label .woof_label_term.checked:after {
+  content: "\ea3b";
+}
+
+.woof_container_inner_bodyshapes .woof_label_term:before {
+  content: "";
+  font-size: 16px;
+  padding-right: 10px;
+  font-family: 'bodyshape';
+  display: inline-block;
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.woof_container_inner_bodyshapes .woof_label_term.label-apple:before {
+  content: "\ea01";
+}
+
+.woof_container_inner_bodyshapes .woof_label_term.label-pear:before {
+  content: "\ea04";
+}
+
+.woof_container_inner_bodyshapes .woof_label_term.label-hourglass:before {
+  content: "\ea02";
+}
+
+.woof_container_inner_bodyshapes .woof_label_term.label-slender:before {
+  content: "\ea03";
+}
+
+.woof_container_label .woof_container_inner .woof_block_html_items {
+  padding-bottom: 0px;
+}
+
+.woof_block_html_items>ul.woof_list.woof_list_label>li:last-child {
+  margin-bottom: 0 !important;
+}
+
+.woof_block_html_items>ul.woof_list.woof_list_label>li:last-child>.woof_label_term {
+  margin-bottom: 0;
+}
+
+/*Attribute Popup*/
+.bodyshape_info {
+  font-size: .75rem;
+  line-height: 1.15;
+  padding: 15px 0;
+}
+
+.woof_container_checkbox .size_info {
+  padding-top: 0;
+}
+
+.bodyshape_info>.pop-up-button {
+  display: inline-block;
+  line-height: 1.5rem;
+  font-size: inherit;
+}
+
+.bodyshape_info .pop-up-button i {
+  font-size: 1rem;
+  vertical-align: top;
+  padding-right: 8px;
+  line-height: 1.5rem;
+}
+
+/*Change Clear All Position*/
+.woof_redraw_zone {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+}
+
+.woof_redraw_zone>.woof_container {
+  width: 100%;
+}
+
+.woof_redraw_zone>.woof_container>.woof_container_inner {}
+
+.toggle__link--no-indicator>.toggle__name {
+  font-size: .85rem;
+}
+
+.woof_redraw_zone>.woof_container.woof_submit_search_form_container,
+.woof_container_inner>.woof_submit_search_form_container>.woof_reset_search_form {
+  -webkit-box-ordinal-group: 0;
+  -moz-box-ordinal-group: 0;
+  -ms-flex-order: 0;
+  -webkit-order: 0;
+  order: 0;
+  border-bottom: none;
+}
+
+.woof_redraw_zone>.woof_container {
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -ms-flex-order: 1;
+  -webkit-order: 1;
+  order: 1;
+}
+
+.WOOF_Widget.toggle--active .woof_redraw_zone>.woof_submit_search_form_container+button#closeRefinement {
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  order: 2;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.woof_submit_search_form_container {
+  margin: 0;
+}
+
+.woof_redraw_zone>.woof_submit_search_form_container>.woof_reset_search_form,
+.woof_container_inner>.woof_submit_search_form_container>.woof_reset_search_form,
+button.woof_reset_search_form.refinement__clear {
+  border: none;
+  padding: 0;
+  line-height: 1.15;
+  margin: 0 5px;
+  color: #888;
+  font-size: .625rem;
+  text-transform: uppercase;
+  font-family: var(--fontPrimary);
+  letter-spacing: 0px;
+  background: none;
+}
+
+.woof_redraw_zone>.woof_submit_search_form_container>.woof_reset_search_form:hover,
+.woof_redraw_zone>.woof_submit_search_form_container>.woof_reset_search_form:focus,
+.woof_container_inner>.woof_submit_search_form_container>.woof_reset_search_form:hover,
+.woof_container_inner>.woof_submit_search_form_container>.woof_reset_search_form:focus,
+button.woof_reset_search_form.refinement__clear:hover,
+button.woof_reset_search_form.refinement__clear:focus {
+  background: none;
+  color: #000;
+}
+
+.shop-sidebar .WOOF_Widget {
+  float: none;
+}
+
+.woof_redraw_zone>.woof_container>.toggle-wrap {
+  border-bottom: none;
+  padding: 0;
+}
+
+/*hide show filter content*/
+@media (max-width: 991px) {
+
+  .shop-sidebar .WOOF_Widget.hide:not(.toggle--active),
+  aside.widget.shop.WOOF_Widget:not(.toggle--active) {
+    display: none;
+  }
+
+  .shop-sidebar .WOOF_Widget {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+  }
+
+  #refinementsBarTrigger {
+    line-height: 48px;
+    height: 48px;
+    border: 1px solid #e8e8e8;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-size: .75rem;
+  }
+
+  #refinementsBarTrigger {
+    line-height: 46px;
+    height: 46px;
+    border: 1px solid #e8e8e8;
+    background: #FFF;
+    text-transform: uppercase;
+    padding: 0 16px 0 20px;
+    font-size: .75rem;
+  }
+
+  .refinement__sorts .selectbox__label {
+    line-height: 46px;
+    height: 46px;
+    border: 1px solid #e8e8e8;
+  }
+
+  .refinement__sorts .selectbox__label:after {
+    line-height: 46px;
+    height: 46px;
+  }
+
+  .shop-sidebar .WOOF_Widget .widget-woof {
+    margin: 0;
+    overflow: auto;
+    max-height: 100%;
+    padding: 0 0 24px;
+    background-color: #fff;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .WOOF_Widget.toggle--active .woof_redraw_zone>.woof_submit_search_form_container {
+    padding: 18px 1rem 12px;
+  }
+
+  .woof_redraw_zone>.woof_container {
+    padding: 0 1rem;
+  }
+
+  .woof_submit_search_form_container .toggle__link--no-indicator {
+    height: auto;
+    padding: 0;
+  }
+
+  .woof_submit_search_form_container>.toggle-wrap {
+    padding: 0;
+    border: none;
+  }
+
+  .woof_submit_search_form_container .toggle__link--no-indicator>.toggle__name {
+    font-size: .85rem;
+    line-height: 1.6;
+  }
+}
+
+.woof_container_inner_bodyshapes .woof_term_112 .woof_label_term:before {
+  content: "\e900";
+}
+
+.woof_container_inner_bodyshapes .woof_term_113 .woof_label_term:before {
+  content: "\e901";
+}
+
+.woof_container_inner_bodyshapes .woof_term_111 .woof_label_term:before {
+  content: "\e902";
+}
+
+.woof_container_inner_bodyshapes .woof_term_114 .woof_label_term:before {
+  content: "\e903";
+}
+
+.woof_container_inner_bodyshapes .woof_term_349 .woof_label_term:before {
+  content: "\e904";
+}

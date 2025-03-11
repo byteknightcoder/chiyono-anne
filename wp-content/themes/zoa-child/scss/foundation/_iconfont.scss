@@ -1,0 +1,518 @@
+[class*="woo-icon-"],
+[class^="woo-icon-"],
+[class^="bsicon-"],
+[class*=" bsicon-"],
+.oecicon,
+.gecicon {
+  display: inline-block;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------
+icons from icon-woo.css
+-------------------------*/
+@font-face {
+  font-family: 'wooicons';
+  src: url('../../themes/zoa-child/fonts/wooicons.eot');
+  src: url('../../themes/zoa-child/fonts/wooicons.eot') format('embedded-opentype'), url('../../themes/zoa-child/fonts/wooicons.woff2') format('woff2'), url('../../themes/zoa-child/fonts/wooicons.woff') format('woff'), url('../../themes/zoa-child/fonts/wooicons.ttf') format('truetype'), url('../../themes/zoa-child/fonts/wooicons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class*="woo-icon-"],
+[class^="woo-icon-"] {
+  font: normal normal normal 1em/1 'wooicons';
+}
+
+.woo-icon {
+  &-circle-remove::before {
+    content: "\ea02";
+  }
+
+  &-circle-delete::before {
+    content: "\ea03";
+  }
+
+  &-ban::before {
+    content: "\ea04";
+  }
+
+  &-delivery::before {
+    content: "\ea05";
+  }
+
+  &-check-circle-08::before {
+    content: "\ea06";
+  }
+
+  &-time-3::before {
+    content: "\ea07";
+  }
+
+  &-credit-card::before {
+    content: "\ea08";
+  }
+
+  &-card-update::before {
+    content: "\ea09";
+  }
+
+  &-box-3d-50::before {
+    content: "\ea0a";
+  }
+
+  &-opening-times::before {
+    content: "\ea0b";
+  }
+
+  &-alert-circle-exc::before {
+    content: "\ea0c";
+  }
+
+  &-card-remove::before {
+    content: "\ea0d";
+  }
+
+  &-bank::before {
+    content: "\ea0e";
+  }
+
+  &-money-coins::before {
+    content: "\ea0f";
+  }
+}
+
+/*------------------------
+icons from icon-bodyshape.css
+-------------------------*/
+@font-face {
+  font-family: 'bodyshape';
+  src: url('../../themes/zoa-child/fonts/bodyshape.eot');
+  src: url('../../themes/zoa-child/fonts/bodyshape.eot#iefix') format('embedded-opentype'),
+    url('../../themes/zoa-child/fonts/bodyshape.woff2') format('woff2'),
+    url('../../themes/zoa-child/fonts/bodyshape.ttf') format('truetype'),
+    url('../../themes/zoa-child/fonts/bodyshape.woff') format('woff'),
+    url('../../themes/zoa-child/fonts/bodyshape.svg#bodyshape') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="bsicon-"],
+[class*=" bsicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bodyshape' !important;
+}
+
+.bsicon-body {
+  &-apple:before {
+    content: "\e900";
+  }
+
+  &-hourglass:before {
+    content: "\e901";
+  }
+
+  &-pear:before {
+    content: "\e902";
+  }
+
+  &-slendar:before {
+    content: "\e903";
+  }
+
+  &-glamour:before {
+    content: "\e904";
+  }
+}
+
+/*------------------------
+icons from icon-outline.css
+-------------------------*/
+@font-face {
+  font-family: 'oecicon';
+  src: url('../../themes/zoa-child/fonts/oecicon.eot');
+  src: url('../../themes/zoa-child/fonts/oecicon.eot') format('embedded-opentype'), url('../../themes/zoa-child/fonts/oecicon.woff2') format('woff2'), url('../../themes/zoa-child/fonts/oecicon.woff') format('woff'), url('../../themes/zoa-child/fonts/oecicon.ttf') format('truetype'), url('../../themes/zoa-child/fonts/oecicon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.oecicon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'oecicon';
+
+  &-simple-remove::before {
+    content: "\ea07";
+  }
+
+  &-menu-34::before {
+    content: "\ea08";
+  }
+
+  &-minimal-right::before {
+    content: "\ea09";
+  }
+
+  &-minimal-up::before {
+    content: "\ea0a";
+  }
+
+  &-minimal-left::before {
+    content: "\ea0b";
+  }
+
+  &-minimal-down::before {
+    content: "\ea0c";
+  }
+
+  &-log-out::before {
+    content: "\ea0d";
+  }
+
+  &-log-in::before {
+    content: "\ea0e";
+  }
+
+  &-menu-to-close-2::before {
+    content: "\ea0f";
+  }
+
+  &-i-sorting::before {
+    content: "\ea10";
+  }
+
+  &-contacts-2::before {
+    content: "\ea11";
+  }
+
+  &-home-simple::before {
+    content: "\ea12";
+  }
+
+  &-email-84::before {
+    content: "\ea13";
+  }
+
+  &-phone-2::before {
+    content: "\ea14";
+  }
+
+  &-box-3d-50::before {
+    content: "\ea15";
+  }
+
+  &-ban::before {
+    content: "\ea18";
+  }
+
+  &-credit-card::before {
+    content: "\ea1a";
+  }
+
+  &-money-11::before {
+    content: "\ea1b";
+  }
+
+  &-alert-circle-i::before {
+    content: "\ea1c";
+  }
+
+  &-alert-circle-que::before {
+    content: "\ea1d";
+  }
+
+  &-delivery::before {
+    content: "\ea1e";
+  }
+
+  &-calendar-grid-58::before {
+    content: "\ea1f";
+  }
+
+  &-time::before {
+    content: "\ea20";
+  }
+
+  &-delivery-time::before {
+    content: "\ea21";
+  }
+
+  &-speaker::before {
+    content: "\ea22";
+  }
+
+  &-alert::before {
+    content: "\ea23";
+  }
+
+  &-sale::before {
+    content: "\ea24";
+  }
+
+  &-new::before {
+    content: "\ea25";
+  }
+
+  &-gift-2::before {
+    content: "\ea26";
+  }
+
+  &-small-add::before {
+    content: "\ea28";
+  }
+
+  &-small-delete::before {
+    content: "\ea29";
+  }
+
+  &-alert-circle-exc::before {
+    content: "\ea2a";
+  }
+
+  &-bag-20::before {
+    content: "\ea2b";
+  }
+
+  &-heart-2-3::before {
+    content: "\ea2c";
+  }
+
+  &-heart-remove::before {
+    content: "\ea2d";
+  }
+
+  &-heart-add::before {
+    content: "\ea2e";
+  }
+
+  &-zoom-2::before {
+    content: "\ea2f";
+  }
+
+  &-pin-3::before {
+    content: "\ea30";
+  }
+
+  &-single-03::before {
+    content: "\ea31";
+  }
+
+  &-log-in-2::before {
+    content: "\ea32";
+  }
+
+  &-share-2::before {
+    content: "\ea39";
+  }
+
+  &-measurement-2::before {
+    content: "\ea3a";
+  }
+
+  &-stre-right::before {
+    content: "\ea3c";
+  }
+
+  &-stre-left::before {
+    content: "\ea3d";
+  }
+
+  &-tail-right::before {
+    content: "\ea3e";
+  }
+
+  &-star-rate::before {
+    content: "\ea3f";
+  }
+
+  &-texture::before {
+    content: "\ea40";
+  }
+
+  &-corset::before {
+    content: "\ea41";
+  }
+
+  &-bra::before {
+    content: "\ea42";
+  }
+
+  &-underwear::before {
+    content: "\ea43";
+  }
+
+  &-swimwear::before {
+    content: "\ea44";
+  }
+
+  &-like::before {
+    content: "\ea45";
+  }
+
+  &-love-card::before {
+    content: "\ea46";
+  }
+}
+
+
+/*------------------------
+icons from icon-glyph.css
+-------------------------*/
+@font-face {
+  font-family: 'gecicon';
+  src: url('../../themes/zoa-child/fonts/gecicon.eot');
+  src: url('../../themes/zoa-child/fonts/gecicon.eot') format('embedded-opentype'), url('../../themes/zoa-child/fonts/gecicon.woff2') format('woff2'), url('../../themes/zoa-child/fonts/gecicon.woff') format('woff'), url('../../themes/zoa-child/fonts/gecicon.ttf') format('truetype'), url('../../themes/zoa-child/fonts/gecicon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gecicon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'gecicon';
+
+  &-sm {
+    font-size: 0.8em;
+  }
+
+  &-lg {
+    font-size: 1.2em;
+  }
+
+  &-16 {
+    font-size: 16px;
+  }
+
+  &-32 {
+    font-size: 32px;
+  }
+
+  &-bg {
+
+    &-square,
+    &-circle {
+      padding: 0.35em;
+      background-color: #eee;
+    }
+
+    &-circle {
+      border-radius: 50%;
+    }
+
+  }
+
+  &-rotate {
+    &-90 {
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+
+    &-270 {
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+      -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      transform: rotate(270deg);
+    }
+
+    &-180 {
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  }
+
+  &-flip {
+    &-y {
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+      -webkit-transform: scale(-1, 1);
+      -moz-transform: scale(-1, 1);
+      -ms-transform: scale(-1, 1);
+      -o-transform: scale(-1, 1);
+      transform: scale(-1, 1);
+    }
+
+    &-x {
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+      -webkit-transform: scale(1, -1);
+      -moz-transform: scale(1, -1);
+      -ms-transform: scale(1, -1);
+      -o-transform: scale(1, -1);
+      transform: scale(1, -1);
+    }
+  }
+
+  &-is-spinning {
+    -webkit-animation: gecicon-spin 2s infinite linear;
+    -moz-animation: gecicon-spin 2s infinite linear;
+    animation: gecicon-spin 2s infinite linear;
+  }
+
+  &-heart-2::before {
+    content: "\ea34";
+  }
+
+  &-check-small::before {
+    content: "\ea37";
+  }
+
+  &-check-curve::before {
+    content: "\ea38";
+  }
+
+  &-check-simple::before {
+    content: "\ea3b";
+  }
+}
+
+@-webkit-keyframes gecicon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes gecicon-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes gecicon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,43 @@
+/* LESS Document */
+/* defines the animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.series_catch .heading,
+.series_catch .desc {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+}
+.series_catch .heading.first,
+.series_catch .desc.first {
+  animation-delay: 1s;
+}
+.series_catch .heading.second,
+.series_catch .desc.second {
+  animation-delay: 3s;
+}
+.series_catch .heading.third,
+.series_catch .desc.third {
+  animation-delay: 5s;
+}
+.series_catch .heading.fourth,
+.series_catch .desc.fourth {
+  animation-delay: 7s;
+}
+.series_catch .heading.fifth,
+.series_catch .desc.fifth {
+  animation-delay: 9s;
+}
+.series_catch .heading.sixth,
+.series_catch .desc.sixth {
+  animation-delay: 11s;
+}

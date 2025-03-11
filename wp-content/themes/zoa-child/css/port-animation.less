@@ -1,0 +1,41 @@
+/* LESS Document */
+
+/* defines the animation */
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.series_catch .heading, .series_catch .desc {
+  opacity: 0; 
+  animation: fadeInUp 1s ease-in-out 0s forwards;
+
+  
+  &.first {
+    animation-delay: 1s;
+  }
+  &.second {
+    animation-delay: 3s;
+  }
+  &.third {
+    animation-delay: 5s;
+  }
+  &.fourth {
+    animation-delay: 7s;
+  }
+  &.fifth {
+    animation-delay: 9s;
+  }
+  &.sixth {
+    animation-delay: 11s;
+  }
+ }

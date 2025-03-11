@@ -1,0 +1,77 @@
+:root {
+  --bodyColor: #0a0a0a;
+  --bodyBackgroundColor: white;
+  --fontBody: 'Noto Sans JP',
+    游ゴシック,
+    "Yu Gothic",
+    YuGothic,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Kaku Gothic Pro",
+    メイリオ,
+    Meiryo,
+    sans-serif;
+  --fontPrimary: "ProximaNovaRegular",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  //"proxima-nova"
+  --fontPrimaryBold: "ProximaNovaBold",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  --fontSecondary: "ChaparralRegular",
+    "Courier New",
+    Courier,
+    monospace;
+  --fontAlt: beloved-script,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  --fontTitling: "BodoniTweITCPro-Book",
+    "ChaparralRegular",
+    Georgia,
+    MSung PRC Medium,
+    serif;
+  --fontLocal: Courier,
+    "Courier New",
+    monospace;
+  --fontPrice: 'Lato',
+    sans-serif;
+  --fontThird: Eina03;
+  --iconOec: "oecicon";
+  --linkXsmall: .75rem;
+  --linkSmall: .8125rem;
+  --linkDefault: .875rem;
+  --linkNavMega: .9rem;
+  --spacingLarge: 2rem;
+  --spacingMedium: 1.5rem;
+  --spacingGeneral: 1rem;
+  --spacingSmall: .75rem;
+  --ButtonLarge: .95rem;
+  --ButtonLargeMobile: .85rem;
+  --clrLgray: #787781;
+  --pgLspace: 1px;
+  --pSmall: .85rem;
+  --productCardTitleWeight: 400;
+  --productCardTitleFontFamily: var(--fontSecondary);
+  --productCardTitleFontSize: 1.05rem;
+  --productCardTitleFontSizeMobile: var(--linkDefault);
+  --productCardSeriesFontSize: .685rem;
+  --productCardPriceFontSize: var(--linkDefault);
+  --productCardPriceFontSizeMobile: var(var(--linkSmall));
+  --NavHeightMobile: 65px;
+  --NavMobileBg: #f6f6f6;
+  --NavMobileLinkBg: $white;
+  --NavMobileH: 56px;
+  --NavMobileLinkH: 60px;
+}
+
+$white: #FFF;
+$black: #000;
+$lineGray: #eeeeee;
+$red: red;
+$bootGutter: 15px;
+$ja-font: var(--fontBody);

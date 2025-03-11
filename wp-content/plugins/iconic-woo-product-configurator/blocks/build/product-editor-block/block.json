@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "iconicpc/product-editor",
+  "version": "0.1.0",
+  "title": "Product Configurator Settings",
+  "category": "widgets",
+  "icon": "flag",
+  "description": "Settings for the WooCommerce Product Configurator by IconicWP",
+  "attributes": {
+    "message": {
+      "type": "string",
+      "__experimentalRole": "content",
+      "source": "text",
+      "selector": "div"
+    }
+  },
+  "supports": {
+    "html": false,
+    "inserter": false
+  },
+  "textdomain": "jckpc",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

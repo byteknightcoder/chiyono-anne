@@ -1,0 +1,80 @@
+.yaydp-event-wrapper {
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  width: "fit-content";
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+}
+
+.yaydp-event-wrapper p {
+  margin-bottom: 0;
+}
+
+body .yaydp-event-wrapper:first-child {
+  border-top: none;
+}
+
+.yaydp-event-wrapper.notice {
+  background: #3d9cd2;
+}
+.yaydp-event-wrapper.warning {
+  background: #dd8e27;
+}
+
+
+.yaydp-timer-space-group {
+  vertical-align: top;
+}
+
+.yaydp-event-countdown {
+  display: inline-flex;
+  gap: 5px;
+  vertical-align: middle;
+  margin-left: 1rem;
+}
+
+.yaydp-event-countdown .yaydp-timer-number {
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji;
+  position: initial;
+  background: transparent;
+  border: 1px solid transparent;
+  font-weight: 600;
+  padding: 0 2px;
+  border-radius: 5px;
+  display: block;
+  -webkit-transform: perspective(100px);
+  -ms-transform: perspective(100px);
+  -o-transform: perspective(100px);
+  transform: perspective(100px);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  height: 1.5em;
+  -webkit-transition: -webkit-transform 800ms, opacity 700ms, color 400ms,
+    filter 400ms;
+  -o-transition: -o-transform 800ms, opacity 700ms, color 400ms, filter 400ms;
+  transition: transform 800ms, opacity 700ms, color 400ms, filter 400ms;
+}
+
+.yaydp-event-countdown .yaydp-timer-label {
+  display: block;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji;
+  font-size: 10px;
+}
+
+.yaydp-notice-countdown-wrap::before {
+  top: 1.6em !important;
+}
+
+.yaydp-countdown-view-event {
+  line-height: 2.5 !important;
+}

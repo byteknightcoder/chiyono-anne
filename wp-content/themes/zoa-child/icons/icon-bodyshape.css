@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'bodyshape';
+  src:  url('fonts/bodyshape.eot?jkq5lt');
+  src:  url('fonts/bodyshape.eot?jkq5lt#iefix') format('embedded-opentype'),
+    url('fonts/bodyshape.woff2?jkq5lt') format('woff2'),
+    url('fonts/bodyshape.ttf?jkq5lt') format('truetype'),
+    url('fonts/bodyshape.woff?jkq5lt') format('woff'),
+    url('fonts/bodyshape.svg?jkq5lt#bodyshape') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="bsicon-"], [class*=" bsicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bodyshape' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bsicon-body-apple:before {
+  content: "\e900";
+}
+.bsicon-body-hourglass:before {
+  content: "\e901";
+}
+.bsicon-body-pear:before {
+  content: "\e902";
+}
+.bsicon-body-slendar:before {
+  content: "\e903";
+}
+.bsicon-body-glamour:before {
+  content: "\e904";
+}

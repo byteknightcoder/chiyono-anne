@@ -1,0 +1,26 @@
+/* GENERAL
+***************************************************/
+* {
+	outline: none !important;
+}
+
+/* STYLE FOR `Image` COLUMN `post` ADMIN SCREEN
+***************************************************/
+#thumbnail_image {
+	width: 60px;
+}
+#the-list td.thumbnail_image a:focus {
+	box-shadow: none;
+}
+#the-list td.thumbnail_image img {
+	max-width: 100%;
+}
+
+/* KIRKI `radio_image` TYPE
+***************************************************/
+.customize-control-kirki-radio-image .image label {
+	margin-right: 10px;
+}
+.customize-control-kirki-radio-image .image label:last-child {
+	margin-right: 0;
+}

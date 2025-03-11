@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+html {
+  font-size: 100%;
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(209, 144, 144);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  width: 90vw;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+
+.ja {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+p {
+  color: #FFF;
+}
+p.desc {
+  margin-top: 24px;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 479px) {
+  p.desc {
+    font-size: 3.6666vw;
+  }
+}
+p.mail {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  color: rgb(203, 133, 138);
+}
+p.mail a {
+  color: inherit;
+}
+
+.subtitle {
+  color: #ffffff;
+  font-size: clamp(2rem, 50vw, 2.5rem);
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  margin-top: 12px;
+}
+@media screen and (max-width: 479px) {
+  .subtitle {
+    font-size: 8vw;
+  }
+}
+
+.logo {
+  width: 100%;
+}
+
+.wip {
+  position: fixed;
+  bottom: 2rem;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+}
+
+.wip {
+  left: 2rem;
+  z-index: 666;
+}
+
+.mail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.25rem;
+  color: rgb(209, 144, 144);
+}
+
+.contact {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  cursor: pointer;
+}
+.contact__close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.contact text {
+  font-family: "Helvetica Neue", Arial;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  left: 100%;
+  top: -100%;
+  z-index: 666;
+  border-radius: 200rem;
+  transition: all 1s ease;
+}
+.contact-overlay.open {
+  left: 0;
+  top: 0;
+  border-radius: 0;
+}
+
+.contact svg {
+  width: 150px;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+.svg_wrapper {
+  position: relative;
+  display: block;
+}
+.svg_wrapper.nav_logo {
+  padding-top: 25.806%;
+  width: 100%;
+}
+.svg_wrapper svg {
+  fill: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.logo_link {
+  display: inline-block;
+  width: 50%;
+  max-width: 320px;
+}
+@media screen and (max-width: 576px) {
+  .logo_link {
+    width: 68%;
+  }
+}/*# sourceMappingURL=style.css.map */

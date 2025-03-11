@@ -1,0 +1,94 @@
+$breakpoint-up: ("xxs": "screen and (min-width: 340px)",
+  "xs": "screen and (min-width: 480px)",
+  "sm": "screen and (min-width: 575px)",
+  "md": "screen and (min-width: 768px)",
+  "lm": "screen and (min-width: 992px)",
+  "lg": "screen and (min-width: 1202px)",
+  "ll": "screen and (min-width: 1280px)",
+  "xl": "screen and (min-width: 1367px)",
+) !default;
+// max-width
+$breakpoint-down: ("xxs": "screen and (max-width: 339px)",
+  "xs": "screen and (max-width: 479px)",
+  "sm": "screen and (max-width: 576px)",
+  "md": "screen and (max-width: 767px)",
+  "lm": "screen and (max-width: 991px)",
+  "lg": "screen and (max-width: 1201px)",
+  "ll": "screen and (max-width: 1281px)",
+  "xl": "screen and (max-width: 1366px)",
+) !default;
+
+// @mixinの定義
+@mixin mq-up($breakpoint: md) {
+  @media #{map-get($breakpoint-up, $breakpoint)} {
+    @content;
+  }
+}
+
+@mixin mq-down($breakpoint: md) {
+  @media #{map-get($breakpoint-down, $breakpoint)} {
+    @content;
+  }
+}
+
+@mixin fontProxi {
+  font-family: "proxima-nova",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+@mixin fontChapa {
+  font-family: "chaparral-pro",
+    "Courier New",
+    Courier,
+    monospace;
+  font-weight: 400;
+  text-transform: initial;
+  letter-spacing: .05em;
+}
+
+@mixin fontLove {
+  font-family: beloved-script,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-weight: 400;
+}
+
+@mixin obj-fit {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  font-family: "object-fit: cover;";
+  object-fit: cover;
+  object-position: center;
+}
+
+$white: #FFF;
+$black: #000;
+$lineGray: #eeeeee;
+$red: red;
+
+$bootGutter: 15px;
+
+:root {
+  --bodyBackgroundColor: white;
+  --fontPrimary: "proxima-nova",
+    sans-serif;
+  --fontSecondary: "chaparral-pro",
+    "Courier New",
+    Courier,
+    monospace;
+  --linkSmall: .8125rem;
+  --productCardTitleWeight: 400;
+  --productCardTitleFontFamily: var(--fontSecondary);
+  --productCardTitleFontSize: var(--linkSmall);
+}

@@ -1,0 +1,430 @@
+$breakpoint-up: ("xxs": "screen and (min-width: 380px)",
+  "xs": "screen and (min-width: 480px)",
+  "sm": "screen and (min-width: 620px)",
+  "md": "screen and (min-width: 768px)",
+  "lg": "screen and (min-width: 1280px)",
+  "xl": "screen and (min-width: 1367px)",
+) !default;
+// max-width
+$breakpoint-down: ("xxs": "screen and (max-width: 379px)",
+  "xs": "screen and (max-width: 469px)",
+  "sm": "screen and (max-width: 621px)",
+  "md": "screen and (max-width: 767px)",
+  "lg": "screen and (max-width: 1279px)",
+  "xl": "screen and (max-width: 1366px)",
+) !default;
+
+// @mixinの定義
+@mixin mq-up($breakpoint: md) {
+  @media #{map-get($breakpoint-up, $breakpoint)} {
+    @content;
+  }
+}
+
+@mixin mq-down($breakpoint: md) {
+  @media #{map-get($breakpoint-down, $breakpoint)} {
+    @content;
+  }
+}
+
+.rank_icon {
+  $gold: #d4af37;
+  display: block;
+  width: 85%;
+  max-width: 52px;
+  margin: 0 auto 6px;
+
+  .svg-wrap {
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      content: "";
+      width: 105%;
+      height: 105%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      border: 1px solid $gold;
+      transform: translate(-50%, -50%);
+      border-radius: 100%;
+      z-index: -1;
+    }
+
+    svg {
+      fill: $gold;
+    }
+  }
+
+  +.name {
+    color: $gold;
+  }
+}
+
+.rank_tr {
+  svg#gradient {
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    z-index: -3;
+  }
+
+  &_royal {
+    $royal: linear-gradient(-45deg, #74ebd5, #ffdde1, #acb6e5);
+
+    .rank_icon {
+      .svg-wrap {
+        svg {
+          fill: url(#linearGradient);
+        }
+
+        &:before {
+          border-color: transparent;
+          background: #acb6e5;
+          background: $royal;
+          z-index: -2;
+        }
+
+        &:after {
+          background: #fff;
+          content: "";
+          width: calc(105% - 2px);
+          height: calc(105% - 2px);
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 100%;
+          z-index: -1;
+        }
+      }
+
+      +.name {
+        background-image: $royal;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+
+  &_silver {
+    $silver: #c0c0c0;
+
+    .rank_icon {
+      .svg-wrap {
+        &:before {
+          border-color: $silver;
+        }
+
+        svg {
+          fill: $silver;
+        }
+      }
+
+      +.name {
+        color: $silver;
+      }
+    }
+  }
+
+  &_bronze {
+    $bronze: #cd7f32;
+
+    .rank_icon {
+      .svg-wrap {
+        &:before {
+          border-color: $bronze;
+        }
+
+        svg {
+          fill: $bronze;
+        }
+      }
+
+      +.name {
+        color: $bronze;
+      }
+    }
+  }
+}
+
+.youare {
+  font-size: 0.85rem;
+  letter-spacing: 0.075em;
+}
+
+.rank {
+  $royal: linear-gradient(-45deg, #74ebd5, #ffdde1, #acb6e5);
+  $gold: #d4af37;
+  $silver: #c0c0c0;
+  $bronze: #cd7f32;
+
+  &_name {
+    text-transform: uppercase;
+    font-size: 115%;
+    letter-spacing: 0.05em;
+  }
+
+  &_royal {
+    background-image: $royal;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &_gold {
+    color: $gold;
+  }
+
+  &_silver {
+    color: $silver;
+  }
+
+  &_bronze {
+    color: $bronze;
+  }
+}
+
+// Table
+.rank_table {
+  width: 100%;
+  background: #fff;
+
+  @include mq-down() {
+    background: transparent;
+
+    .rank_tr {
+      background: #fff;
+    }
+  }
+
+  td,
+  th {
+    line-height: 1.35;
+  }
+
+  thead {
+
+    th,
+    td {
+      font-size: 0.75rem;
+      line-height: 1.25;
+    }
+
+    th.rank_term {
+      width: 110px;
+    }
+
+    th.rank_logic,
+    th.rank_term {
+      text-align: center;
+    }
+  }
+
+  tbody {
+
+    th,
+    td {
+      font-size: 0.75rem;
+
+      .name {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .rank_icon {
+    width: 62px;
+  }
+
+  .rank_name {
+    width: 100px;
+    text-align: center;
+
+    .name {
+      font-family: "chaparral-pro", "Courier New", Courier, monospace;
+      font-weight: 400;
+    }
+  }
+
+  td.rank_logic {
+    &:before {
+      @include mq-down() {
+        display: block;
+      }
+
+      @include mq-down(xs) {
+        padding-right: 1rem;
+      }
+    }
+  }
+}
+
+//About Rank Page
+.rank {
+  &_block {
+    .elementor-text-editor {
+      .p_notice {
+        p {
+          line-height: 1.45;
+          margin-bottom: 6px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      p {
+        &.p_xxs {
+          font-size: 0.65rem;
+        }
+      }
+
+      p,
+      ul li {
+        font-size: 0.85rem;
+        line-height: 1.8;
+        text-align: left;
+
+        @include mq-down(xs) {
+          font-size: 0.75rem;
+        }
+      }
+
+      ul {
+        margin: 0;
+
+        li {
+          +li {
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  &_define {
+    .p_notice {
+      p {
+        line-height: 1.45;
+        margin-bottom: 6px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .rank_table {
+      border: none;
+      width: 100%;
+
+      @include mq-down() {
+        background: transparent;
+      }
+
+      th,
+      td {
+        &:last-child {
+          border-right: none;
+        }
+      }
+
+      tbody {
+        tr {
+          &:last-child {
+            td {
+              @include mq-up() {
+                border-bottom: none;
+              }
+            }
+          }
+        }
+      }
+
+      .rank_tr {
+        border: none;
+      }
+
+      @include mq-up(sm) {
+        th.rank_benefit {
+          width: 45%;
+        }
+      }
+
+      @include mq-down() {
+        tr {
+          background: #fff;
+        }
+      }
+    }
+  }
+
+  &_left {
+    @include mq-down() {
+      max-width: 620px;
+      margin: 0 auto;
+    }
+  }
+}
+
+#RankServices {
+  >.elementor-container {
+    @include mq-down() {
+      max-width: 420px;
+    }
+
+    @include mq-down(xs) {
+      max-width: 320px;
+    }
+  }
+}
+
+.remodal {
+
+  table.rank_table,
+  table.rank_table+div {
+    max-width: 645px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table.rank_table {
+    width: 100%;
+
+    +div {
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.rm_msg {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+
+span.lined {
+  border: 1px solid;
+  display: inline-block;
+  padding: 2px 4px;
+  line-height: 1.35;
+}
+
+.order__summary__row {
+  +.rm_msg {
+    margin-top: 0.35rem;
+  }
+}
+
+.rank_label {
+  padding: 2px 4px;
+  line-height: 1.35;
+  display: inline-block;
+  background: #3cd070;
+  color: #fff;
+  font-weight: 600;
+}

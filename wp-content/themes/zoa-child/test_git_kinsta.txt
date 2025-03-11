@@ -1,0 +1,9 @@
+this is only test git on kinsta server
+commit to test ci/cd to test site, merger to live branch, ci/cd to live site.
+test finish
+
+i example on this file, but this will similar for any files: css, php, html
+update test.
+
+i example on this file but it like for other file.
+test git on gitlab

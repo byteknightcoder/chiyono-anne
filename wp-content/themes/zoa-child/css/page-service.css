@@ -1,0 +1,30 @@
+section#sec_intro {
+  margin-bottom: 7rem;
+}
+section.cv_hero.elementor-section-boxed > .elementor-container {
+  max-width: 820px;
+}
+section.cv_hero .heading__en {
+  font-size: 2.75rem;
+}
+section.cv_hero .heading__en h2 {
+  text-align: center;
+  letter-spacing: -0.015em;
+  font-family: "Cormorant Garamond", "chaparral-pro", "Courier New", Courier, monospace;
+  font-weight: 500;
+  text-transform: initial;
+}
+section.cv_hero .heading__en_caption {
+  margin-bottom: 1rem;
+}
+section.cv_hero .heading__en_caption h4 {
+  text-align: center;
+}
+section.cv_hero .cv_image {
+  max-width: 420px;
+  margin: 3rem auto;
+}
+section .testy {
+  opacity: 1;
+  font-size: inherit;
+}/*# sourceMappingURL=page-service.css.map */

@@ -1,0 +1,17 @@
+#menu-posts-birs_appointment ul li:nth-child(8),
+#birchschedule-service-info .form-table tr.form-field:nth-child(1),
+#birchschedule-service-info .form-table tr.form-field:nth-child(2),
+#birchschedule-service-info .form-table tr.form-field:nth-child(3),
+.row-actions .payments, .row-actions .reschedule,
+#menu-posts-birs_client .wp-submenu li:nth-child(3),
+.post-type-birs_client .page-title-action,
+#birs_client_selector
+ {
+	display: none;
+}
+#product_series {width: 11%;}
+
+._billing_last_name_kana_field, ._shipping_last_name_kana_field{
+    float: right !important;
+    clear: right !important;
+}

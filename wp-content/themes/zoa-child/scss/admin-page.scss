@@ -1,0 +1,14 @@
+table {
+  &.table__simple {
+    border-collapse: collapse;
+    th,
+    td {
+      padding: 4px 0;
+      border-bottom: 1px solid #ccc;
+    }
+    th {
+      text-align: left;
+      padding-right: 4px;
+    }
+  }
+}

@@ -1,0 +1,215 @@
+/************
+customer details
+**************/
+#cdetails_postbox.postbox {
+    min-width: 0;
+}
+.postbox > #user-general-details {
+    width: 60%;
+}
+.postbox > #user-geo-details-and-stats {
+    box-sizing: border-box;
+    width: 40%;
+    margin: 0;
+}
+#orders-list {
+	width: 100%;
+}
+table#table_orders {
+    width: 100% !important;
+}
+#cdetails_postbox h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: .85rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0;
+    background: none;
+}
+#TB_iframeContent {
+    max-width: 100%;
+}
+/************
+customer add new/edit
+**************/
+body.locale-ja div#wpbody,
+body.locale-ja tbody#the-list {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+#wpbody-content #createuser {
+    width: 100%;
+    border-top: 1px solid #efefef;
+    box-shadow: none;
+}
+body:not(.wp-customizer):not(.vc_editor).toplevel_page_woocommerce-customers-manager #wpbody-content .wrap #wpbody-content,
+body[class*="_page_wccm-add-new-customer"] #wpbody #wpbody-content #wpbody #wpbody-content,
+body:not(.wp-customizer):not(.vc_editor).customize-support.toplevel_page_woocommerce-customers-manager #wpbody-content .wrap #wpbody-content
+{
+    width: 100% !important;
+    max-width: 820px;
+    float: none;
+    margin: 0 auto 24px;
+    box-sizing: border-box;
+}
+#createuser h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 12px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.form-table th {
+    width: 250px;
+}
+.form-table td.single_column {
+    padding: 15px 0;
+}
+table.form-table {
+    width: 100%;
+    table-layout: fixed;
+}
+#createuser .form-table tr, #createuser .form-table th {
+    padding-left: 0;
+}
+#createuser .form-field input {
+    padding: 0 15px;
+    line-height: 30px;
+    width: 100%;
+    max-width: 430px;
+    box-sizing: border-box;
+}
+.field_vessel {
+	display: table;
+}
+.field_vessel > .field_label, .field_vessel > .field_input {
+    display: table-cell;
+    height: 30px;
+    vertical-align: middle;
+}
+ul.col_half_input.names > li > .field_input_wrap > .field_vessel > .field_label {
+    width: 48px;
+    color: #666;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+.field_input_wrap {
+    background: #f9f9f9;
+    display: inline-block;
+    padding: 8px 0;
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+.form-field .field_input_wrap input {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+.field_vessel > .field_input {
+    border-left: 1px solid rgba(0,0,0,.2);
+}
+.field-email .field_input_wrap, .field-username .field_input_wrap {
+    width: 100%;
+}
+span.description {
+    font-style: normal;
+    font-weight: normal;
+}
+
+span.description > .field_required {
+    font-weight: bold;
+}
+#createuser table.form-table+p.submit, #createuser table.form-table+p.submit input {
+	margin-left: 0 !important;
+}
+#createuser table.form-table+p.submit input#createusersub {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: none !important;
+    padding: 12px 16px !important;
+    height: auto;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+@media screen and (min-width: 821px) {
+	ul.col_half_input {
+    display: table;
+	margin: 0;
+	}
+	ul.col_half_input > li {
+    display: table-cell;
+	}
+	ul.col_half_input > li + li {
+    padding-left: 20px;
+	}
+}
+@media screen and (max-width: 820px) {
+	.form-table, .form-table tbody, .form-table tr, .form-table th, .form-table td {
+		display: block;
+	}
+	.form-table th {
+    width: auto;
+	}
+	#createuser .form-field input {
+		max-width: 100%;
+	}
+}
+/************
+customer table
+**************/
+@media only screen and (min-width: 1224px) and (max-width: 1700px) {
+	body:not(.wp-customizer):not(.vc_editor).toplevel_page_woocommerce-customers-manager #wpbody-content {
+    width: 80% !important;
+    width: -webkit-calc(100% - 280px) !important;
+    box-sizing: border-box;
+	}
+	body:not(.wp-customizer):not(.vc_editor).customize-support.toplevel_page_woocommerce-customers-manager #wpbody-content {
+		width: 100% !important;
+		box-sizing: border-box;
+	}
+}
+table.customers.fixed {
+    min-width: 0px;
+	width: 100%;
+    table-layout: fixed;
+}
+table.wp-list-table thead tr, table.wp-list-table tfoot tr {
+    background: #ececec;
+}
+table.wp-list-table.widefat thead tr th , table.wp-list-table.widefat tfoot tr th {
+    color: #333;
+	font-size: .85rem;
+}
+table.wp-list-table.widefat .manage-column.sorted a, table.wp-list-table.widefat th.sortable a {
+	color: #000;
+	font-weight: 400;
+}
+table.wp-list-table.widefat thead tr th#orders_list, table.wp-list-table.widefat thead tr th#appointments_list {
+    width: 70px;
+}
+table.wp-list-table.widefat thead tr th#total_spent {
+    width: 115px;
+}
+table.wp-list-table.widefat thead tr th#appointments_count {
+    width: 50px;
+}
+table.wp-list-table.widefat thead tr th#orders {
+    width: 70px;
+}
+table.wp-list-table.widefat thead tr th:not(#address):not(#login), table.wp-list-table.widefat thead tr th:not(#address):not(#login) a {
+    text-align: center;
+}
+table.wp-list-table th.sortable a span, table.wp-list-table th.sorted a span {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+table.wp-list-table th.sortable a span.sorting-indicator, table.wp-list-table th.sorted a span.sorting-indicator {
+    margin-left: 5px;
+}

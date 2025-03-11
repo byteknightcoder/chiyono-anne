@@ -1,0 +1,2512 @@
+# Copyright (C) 2018 Haintheme
+# This file is distributed under the same license as the Haintheme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Haintheme\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: zoa/404.php:23
+msgid "404 image"
+msgstr ""
+
+#: zoa/404.php:40
+msgid "Go back"
+msgstr ""
+
+#: zoa/comments.php:9
+msgctxt "comment count"
+msgid "Comment ( 1 )"
+msgid_plural "Comments ( %s )"
+msgstr[0] ""
+
+#: zoa/comments.php:15
+msgid "Comment navigation"
+msgstr ""
+
+#: zoa/comments.php:16
+msgid "Older Comments"
+msgstr ""
+
+#: zoa/comments.php:17
+msgid "Newer Comments "
+msgstr ""
+
+#: zoa/comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: zoa/comments.php:41
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: zoa/comments.php:42, zoa/elementor/widgets/products.php:117
+msgid "Name"
+msgstr "お名前"
+
+#: zoa/comments.php:47
+msgid "Leave a reply"
+msgstr ""
+
+#: zoa/comments.php:50
+msgid "Comment"
+msgstr ""
+
+#: zoa/comments.php:51
+msgid "Submit Now"
+msgstr ""
+
+#: zoa/inc/elementor.php:50
+msgid "Zoa Theme"
+msgstr ""
+
+#: zoa/inc/helpers.php:86, zoa/inc/helpers.php:97
+msgid "Logo image"
+msgstr ""
+
+#: zoa/inc/helpers.php:322, zoa/inc/helpers.php:630
+msgid "Blog thumbnail"
+msgstr ""
+
+#: zoa/inc/helpers.php:332
+msgid "Thumbnail"
+msgstr ""
+
+#: zoa/inc/helpers.php:399, zoa/inc/helpers.php:774
+msgid "Search..."
+msgstr ""
+
+#: zoa/inc/helpers.php:401
+msgid "Hit Enter to search or Esc key to close"
+msgstr ""
+
+#: zoa/inc/helpers.php:428
+msgid "Search Products..."
+msgstr ""
+
+#: zoa/inc/helpers.php:520
+msgctxt "Pagination previous button"
+msgid "%s Prev"
+msgstr ""
+
+#: zoa/inc/helpers.php:521
+msgctxt "Pagination next button"
+msgid "Next %s"
+msgstr ""
+
+#: zoa/inc/helpers.php:528
+msgid "Posts pagination"
+msgstr ""
+
+#: zoa/inc/helpers.php:540
+msgctxt "In Uncategorized Category"
+msgid "in "
+msgstr ""
+
+#: zoa/inc/helpers.php:554
+msgid "Pingback:"
+msgstr ""
+
+#: zoa/inc/helpers.php:554, zoa/inc/helpers.php:577
+msgid "Edit"
+msgstr ""
+
+#: zoa/inc/helpers.php:573
+msgid "Reply"
+msgstr ""
+
+#: zoa/inc/helpers.php:581
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: zoa/inc/helpers.php:613
+msgid "by "
+msgstr ""
+
+#: zoa/inc/helpers.php:647
+msgid "Sticky"
+msgstr ""
+
+#: zoa/inc/helpers.php:732
+msgid "Gallery image"
+msgstr ""
+
+#: zoa/inc/helpers.php:773, zoa/inc/woocommerce/general.php:164
+msgid "Search for:"
+msgstr ""
+
+#: zoa/inc/helpers.php:801
+msgid "Zoa custom font"
+msgstr ""
+
+#: zoa/inc/helpers.php:805
+msgid "Eina03"
+msgstr ""
+
+#: zoa/inc/helpers.php:975, zoa/inc/helpers.php:1021, zoa/inc/helpers.php:1059,
+#: zoa/inc/helpers.php:1108, zoa/inc/menus.php:6
+msgid "Primary Menu"
+msgstr ""
+
+#: zoa/inc/helpers.php:985, zoa/inc/helpers.php:1069, zoa/inc/helpers.php:1118,
+#: zoa/inc/hooks.php:339
+msgid "Add Menu"
+msgstr ""
+
+#: zoa/inc/helpers.php:1157
+msgid "Secondary Menu"
+msgstr ""
+
+#: zoa/inc/helpers.php:1176
+msgid "Tertiary Menu"
+msgstr ""
+
+#: zoa/inc/helpers.php:1338
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: zoa/inc/helpers.php:1340
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: zoa/inc/helpers.php:1340
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: zoa/inc/helpers.php:1347
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: zoa/inc/helpers.php:1347
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: zoa/inc/helpers.php:1351
+msgid "Tags: "
+msgstr ""
+
+#: zoa/inc/helpers.php:1353
+msgid "This post has no title"
+msgstr ""
+
+#: zoa/inc/helpers.php:1360
+msgid "Search results"
+msgstr ""
+
+#: zoa/inc/helpers.php:1362
+msgid "Archives"
+msgstr ""
+
+#: zoa/inc/helpers.php:1440
+msgid "Footer logo"
+msgstr ""
+
+#: zoa/inc/hooks.php:124
+msgid "Blog Widget Area"
+msgstr ""
+
+#: zoa/inc/hooks.php:126
+msgid "Appears in the blog sidebar section of the site."
+msgstr ""
+
+#: zoa/inc/hooks.php:136
+msgid "Footer Widget Area"
+msgstr ""
+
+#: zoa/inc/hooks.php:138
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: zoa/inc/hooks.php:149
+msgid "Shop Widget Area"
+msgstr ""
+
+#: zoa/inc/hooks.php:151
+msgid "Appears in the sidebar of shop page."
+msgstr ""
+
+#: zoa/inc/hooks.php:161
+msgid "Subcription Widget Area"
+msgstr ""
+
+#: zoa/inc/hooks.php:163
+msgid "Appears in subscription section of 404 page."
+msgstr ""
+
+#: zoa/inc/hooks.php:186
+msgid "Zoa Demo Full"
+msgstr ""
+
+#: zoa/inc/hooks.php:234, zoa/elementor/widgets/category-box.php:210,
+#: zoa/inc/customizers/404.php:43
+msgid "Image"
+msgstr ""
+
+#: zoa/inc/hooks.php:442
+msgid "No results"
+msgstr ""
+
+#: zoa/inc/include-kirki.php:105
+msgid "Please install the Kirki plugin to take full advantage of this theme\\s customizer capabilities"
+msgstr ""
+
+#: zoa/inc/include-kirki.php:107
+msgid "Install Kirki Toolkit now"
+msgstr ""
+
+#: zoa/inc/include-kirki.php:108
+msgid "Install Now"
+msgstr ""
+
+#: zoa/inc/include-kirki.php:122
+msgid "You have installed Kirki. Activate it to take advantage of this theme's features in the customizer."
+msgstr ""
+
+#: zoa/inc/include-kirki.php:124
+msgid "Activate Kirki Toolkit now"
+msgstr ""
+
+#: zoa/inc/include-kirki.php:125
+msgid "Activate Now"
+msgstr ""
+
+#: zoa/inc/menus.php:7
+msgid "Header Left Menu"
+msgstr ""
+
+#: zoa/inc/menus.php:8
+msgid "Header Right Menu"
+msgstr ""
+
+#: zoa/inc/menus.php:9
+msgid "Primary - Sidebar Menu"
+msgstr ""
+
+#: zoa/template-parts/content-none.php:3
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: zoa/template-parts/content-none.php:6
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: zoa/template-parts/content-none.php:8
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: zoa/template-parts/content.php:62
+msgid "Previous post thumbnail"
+msgstr ""
+
+#: zoa/template-parts/content.php:73
+msgid "Previous Post"
+msgstr ""
+
+#: zoa/template-parts/content.php:84
+msgid "Next post thumbnail"
+msgstr ""
+
+#: zoa/template-parts/content.php:89
+msgid "Next Post"
+msgstr ""
+
+#: zoa/template-parts/content.php:102
+msgid "Read more"
+msgstr ""
+
+#: zoa/template-parts/content.php:102
+msgid "about an interesting article to read"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:347
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:353
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:371
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:393,
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:920,
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2626,
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:394,
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:395,
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+
+#. translators: 1: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:1027
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:1027,
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:1030
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:1030
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:1214,
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2075
+msgid "TGMPA v%s"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2435
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2481
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#. translators: 1: number of plugins.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2485
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#. translators: 1: number of plugins.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2489
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#. translators: 1: number of plugins.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2493
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2696
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2701
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2707
+msgid "Activate %2$s"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3591
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3594
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3596
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3600
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3605
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3608
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3610
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: zoa/tgm-plugin/class-tgm-plugin-activation.php:3613
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:21
+msgid "Revolution Slider"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:26
+msgid "Elementor"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:37
+msgid "Unyson"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:42
+msgid "Kirki"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:47
+msgid "Woocommerce"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:52
+msgid "Variation Swatches for WooCommerce"
+msgstr ""
+
+#: zoa/tgm-plugin/recommend_plugins.php:56
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:8
+msgid "Page menu layout"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:11,
+#: zoa/elementor/page-settings/page.php:26,
+#: zoa/elementor/page-settings/page.php:39,
+#: zoa/inc/customizers/menu-layout.php:360, zoa/inc/customizers/shop.php:22,
+#: zoa/framework-customizations/theme/options/posts/post.php:17,
+#: zoa/framework-customizations/theme/options/posts/post.php:32,
+#: zoa/framework-customizations/theme/options/posts/post.php:45,
+#: zoa/framework-customizations/theme/options/posts/product.php:16
+msgid "Default"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:12,
+#: zoa/elementor/page-settings/page.php:27, zoa/inc/customizers/general.php:22,
+#: zoa/inc/customizers/general.php:41, zoa/inc/customizers/menu-layout.php:16,
+#: zoa/inc/customizers/page-header.php:14, zoa/inc/customizers/shop.php:23,
+#: zoa/framework-customizations/theme/options/posts/post.php:18,
+#: zoa/framework-customizations/theme/options/posts/post.php:33
+msgid "Layout 1"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:13,
+#: zoa/elementor/page-settings/page.php:28, zoa/inc/customizers/general.php:23,
+#: zoa/inc/customizers/general.php:42, zoa/inc/customizers/menu-layout.php:25,
+#: zoa/inc/customizers/page-header.php:21, zoa/inc/customizers/shop.php:24,
+#: zoa/framework-customizations/theme/options/posts/post.php:19,
+#: zoa/framework-customizations/theme/options/posts/post.php:34
+msgid "Layout 2"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:14, zoa/inc/customizers/general.php:24,
+#: zoa/inc/customizers/menu-layout.php:34,
+#: zoa/framework-customizations/theme/options/posts/post.php:20
+msgid "Layout 3"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:15, zoa/inc/customizers/general.php:25,
+#: zoa/inc/customizers/menu-layout.php:44,
+#: zoa/framework-customizations/theme/options/posts/post.php:21
+msgid "Layout 4"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:16, zoa/inc/customizers/general.php:26,
+#: zoa/inc/customizers/menu-layout.php:53,
+#: zoa/framework-customizations/theme/options/posts/post.php:22
+msgid "Layout 5"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:23, zoa/inc/customizers/general.php:36,
+#: zoa/inc/customizers/shop.php:17
+msgid "Page header layout"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:29,
+#: zoa/elementor/page-settings/page.php:41, zoa/inc/customizers/general.php:43,
+#: zoa/inc/customizers/shop.php:25,
+#: zoa/framework-customizations/theme/options/posts/post.php:35,
+#: zoa/framework-customizations/theme/options/posts/post.php:47
+msgid "Disable"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:36
+msgid "Page footer layout"
+msgstr ""
+
+#: zoa/elementor/page-settings/page.php:40,
+#: zoa/framework-customizations/theme/options/posts/post.php:46
+msgid "Enable"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:42
+msgid "Blog Posts"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:95,
+#: zoa/elementor/widgets/blog-posts.php:102,
+#: zoa/inc/customizers/shop-single.php:17,
+#: zoa/framework-customizations/theme/options/posts/product.php:11
+msgid "Layout"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:105
+msgid "Classic"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:106
+msgid "Overlap"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:115,
+#: zoa/elementor/widgets/products.php:41
+msgid "Columns"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:137,
+#: zoa/elementor/widgets/products.php:73
+msgid "Query"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:144,
+#: zoa/elementor/widgets/products.php:80
+msgid "Categories"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:154,
+#: zoa/elementor/widgets/products.php:100
+msgid "Posts Per Page"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:163,
+#: zoa/elementor/widgets/products.php:112
+msgid "Order By"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:167,
+#: zoa/elementor/widgets/products.php:118
+msgid "Date"
+msgstr "日付"
+
+#: zoa/elementor/widgets/blog-posts.php:168,
+#: zoa/elementor/widgets/category-box.php:318,
+#: zoa/elementor/widgets/landing-image.php:146, zoa/inc/customizers/404.php:13,
+#: zoa/inc/widgets/recent-posts-with-thumbnail/class-widget-recent-posts-with-thumbnail.php:37
+msgid "Title"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:169,
+#: zoa/elementor/widgets/products.php:119
+msgid "Random"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:177,
+#: zoa/elementor/widgets/products.php:127
+msgid "Order"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:181,
+#: zoa/elementor/widgets/products.php:131
+msgid "ASC"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:182,
+#: zoa/elementor/widgets/products.php:132
+msgid "DESC"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:194,
+#: zoa/elementor/widgets/products.php:58,
+#: zoa/elementor/widgets/products.php:144
+msgid "Pagination"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:201
+msgid "Show Pagination"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:203,
+#: zoa/elementor/widgets/category-box.php:168
+msgid "Show"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:204,
+#: zoa/elementor/widgets/category-box.php:169
+msgid "Hide"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:213,
+#: zoa/elementor/widgets/category-box.php:290,
+#: zoa/elementor/widgets/countdown.php:97,
+#: zoa/elementor/widgets/products.php:155
+msgid "Alignment"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:217,
+#: zoa/elementor/widgets/category-box.php:294,
+#: zoa/elementor/widgets/countdown.php:101,
+#: zoa/elementor/widgets/products.php:158
+msgid "Left"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:221,
+#: zoa/elementor/widgets/category-box.php:298,
+#: zoa/elementor/widgets/countdown.php:105,
+#: zoa/elementor/widgets/products.php:162
+msgid "Center"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:225,
+#: zoa/elementor/widgets/category-box.php:302,
+#: zoa/elementor/widgets/countdown.php:109,
+#: zoa/elementor/widgets/products.php:166
+msgid "Right"
+msgstr ""
+
+#: zoa/elementor/widgets/blog-posts.php:242
+msgid "Spacing"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:42,
+#: zoa/elementor/widgets/category-box.php:88
+msgid "Category Box"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:95
+msgid "Choose Layout"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:98
+msgid "Overlay"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:99
+msgid "Normal"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:109,
+#: zoa/elementor/widgets/landing-image.php:95
+msgid "Choose Image"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:133,
+#: zoa/elementor/widgets/landing-image.php:109
+msgid "Title Text"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:138,
+#: zoa/elementor/widgets/landing-image.php:114
+msgid "This is the heading"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:139,
+#: zoa/elementor/widgets/landing-image.php:115
+msgid "Enter your text title"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:147
+msgid "Title HTML tag"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:166
+msgid "Show Button"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:178
+msgid "Button Text"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:183
+msgid "Click here"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:184
+msgid "Enter your button title"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:195,
+#: zoa/elementor/widgets/landing-image.php:123
+msgid "Link to"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:200,
+#: zoa/elementor/widgets/landing-image.php:128
+msgid "https://your-link.com"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:221,
+#: zoa/elementor/widgets/category-box.php:327
+msgid "Bottom Spacing"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:243,
+#: zoa/elementor/widgets/countdown.php:127,
+#: zoa/elementor/widgets/landing-image.php:138
+msgid "Content"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:251
+msgid "Position"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:254
+msgid "Top Left"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:255
+msgid "Top Center"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:256
+msgid "Top Right"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:257
+msgid "Center Left"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:258
+msgid "Center Center"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:259
+msgid "Center Right"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:260
+msgid "Bottom Left"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:261
+msgid "Bottom Center"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:262
+msgid "Bottom Right"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:275,
+#: zoa/elementor/widgets/category-box.php:347,
+#: zoa/elementor/widgets/category-box.php:428
+msgid "Padding"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:362,
+#: zoa/elementor/widgets/category-box.php:443,
+#: zoa/elementor/widgets/countdown.php:143,
+#: zoa/elementor/widgets/countdown.php:172
+msgid "Color"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:378
+msgid "Background Color"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:403
+msgid "Button"
+msgstr ""
+
+#: zoa/elementor/widgets/category-box.php:488
+msgid "Category Box Image"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:16,
+#: zoa/elementor/widgets/countdown.php:31
+msgid "Countdown"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:38
+msgid "Due Date"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:51
+msgid "Days Label"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:53
+msgid "Days"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:60
+msgid "Hours Label"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:62
+msgid "Hours"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:69
+msgid "Minutes Label"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:71
+msgid "Minutes"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:78
+msgid "Seconds Label"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:80
+msgid "Seconds"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:89
+msgid "Boxes"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:135
+msgid "Digits"
+msgstr ""
+
+#: zoa/elementor/widgets/countdown.php:163
+msgid "Labels"
+msgstr ""
+
+#: zoa/elementor/widgets/landing-image.php:43,
+#: zoa/elementor/widgets/landing-image.php:88,
+#: zoa/elementor/widgets/landing-image.php:178
+msgid "Landing Image"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:16
+msgid "Woo - Product Flash Sale"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:31,
+#: zoa/elementor/widgets/products.php:33, zoa/inc/customizers/general.php:7,
+#: zoa/inc/customizers/menu-layout.php:75,
+#: zoa/inc/customizers/menu-layout.php:220,
+#: zoa/inc/customizers/menu-layout.php:371,
+#: zoa/inc/customizers/menu-layout.php:528,
+#: zoa/framework-customizations/theme/options/posts/post.php:9,
+#: zoa/framework-customizations/theme/options/posts/product.php:7
+msgid "General"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:38
+msgid "Sale products"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:47
+msgid "Thumbnail size"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:90,
+#: zoa/inc/woocommerce/content-product.php:173,
+#: zoa/inc/woocommerce/content-product.php:199,
+#: zoa/inc/woocommerce/content-product.php:250,
+#: zoa/inc/woocommerce/content-product.php:278,
+#: zoa/inc/woocommerce/content-single-product.php:12,
+#: zoa/inc/woocommerce/content-single-product.php:166,
+#: zoa/inc/woocommerce/content-single-product.php:189
+msgid "Product image"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:111
+msgid "You are not yet set sale schedule for this product"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:124
+msgid "days"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:129
+msgid "hours"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:134
+msgid "mins"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:139
+msgid "secs"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:175
+msgid "Add to cart"
+msgstr ""
+
+#: zoa/elementor/widgets/product-flash-sale.php:181
+msgid "This widget support simple product only"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:16
+msgid "Woo - Products"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:60,
+#: zoa/inc/customizers/shop-single.php:71,
+#: zoa/framework-customizations/theme/options/posts/post.php:75,
+#: zoa/framework-customizations/theme/options/posts/post.php:88
+msgid "Yes"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:61,
+#: zoa/inc/customizers/shop-single.php:72,
+#: zoa/framework-customizations/theme/options/posts/post.php:71,
+#: zoa/framework-customizations/theme/options/posts/post.php:84
+msgid "No"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:90
+msgid "Exclude product"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:116
+msgid "ID"
+msgstr ""
+
+#: zoa/elementor/widgets/products.php:183,
+#: zoa/inc/customizers/page-header.php:33,
+#: zoa/inc/customizers/page-header.php:82
+msgid "Space"
+msgstr ""
+
+#: zoa/inc/customizers/404.php:7
+msgid "404 Page"
+msgstr ""
+
+#: zoa/inc/customizers/404.php:23
+msgid "Subtitle"
+msgstr ""
+
+#: zoa/inc/customizers/404.php:33
+msgid "Description"
+msgstr ""
+
+#: zoa/inc/customizers/blog.php:6
+msgid "Blog"
+msgstr ""
+
+#: zoa/inc/customizers/blog.php:14
+msgid "Blog title"
+msgstr ""
+
+#: zoa/inc/customizers/blog.php:31, zoa/inc/customizers/shop.php:59
+msgid "Sidebar position"
+msgstr ""
+
+#: zoa/inc/customizers/color.php:7
+msgid "Colors"
+msgstr ""
+
+#: zoa/inc/customizers/color.php:19
+msgid "Primary color"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:12,
+#: zoa/framework-customizations/theme/options/posts/post.php:42
+msgid "Footer"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:23
+msgid "Show Footer"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:27, zoa/inc/customizers/general.php:58,
+#: zoa/inc/customizers/general.php:74, zoa/inc/customizers/general.php:89,
+#: zoa/inc/customizers/menu-layout.php:90,
+#: zoa/inc/customizers/menu-layout.php:235,
+#: zoa/inc/customizers/menu-layout.php:386,
+#: zoa/inc/customizers/menu-layout.php:543,
+#: zoa/inc/customizers/page-header.php:133, zoa/inc/customizers/shop.php:81,
+#: zoa/inc/customizers/shop.php:102, zoa/inc/customizers/shop.php:117
+msgid "Off"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:28, zoa/inc/customizers/general.php:59,
+#: zoa/inc/customizers/general.php:75, zoa/inc/customizers/general.php:90,
+#: zoa/inc/customizers/menu-layout.php:89,
+#: zoa/inc/customizers/menu-layout.php:234,
+#: zoa/inc/customizers/menu-layout.php:385,
+#: zoa/inc/customizers/menu-layout.php:542,
+#: zoa/inc/customizers/page-header.php:134, zoa/inc/customizers/shop.php:80,
+#: zoa/inc/customizers/shop.php:103, zoa/inc/customizers/shop.php:118
+msgid "On"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:44
+msgid "Column widgets"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:73
+msgid "Footer Logo"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:127
+msgid "Copyright"
+msgstr ""
+
+#: zoa/inc/customizers/footer.php:151
+msgid "Right content"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:17,
+#: zoa/framework-customizations/theme/options/posts/post.php:14
+msgid "Menu layout"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:20
+msgid "Choose your menu preset to apply for all pages"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:39
+msgid "Choose your page header preset to apply for all pages"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:53
+msgid "Preloader"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:56
+msgid "This option showing a loading animation while your site loads"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:69
+msgid "Smooth scrolling"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:72
+msgid "Smooth scrolling for the web"
+msgstr ""
+
+#: zoa/inc/customizers/general.php:85
+msgid "Sticky Header Menu"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:7
+msgid "Menu Layout"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:62,
+#: zoa/inc/customizers/menu-layout.php:85,
+#: zoa/inc/customizers/menu-layout.php:230,
+#: zoa/inc/customizers/menu-layout.php:381,
+#: zoa/inc/customizers/menu-layout.php:538
+msgid "Topbar"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:101,
+#: zoa/inc/customizers/menu-layout.php:246,
+#: zoa/inc/customizers/menu-layout.php:397
+msgid "Menu background"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:123
+msgid "Highlight menu color"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:152,
+#: zoa/inc/customizers/menu-layout.php:296,
+#: zoa/inc/customizers/menu-layout.php:459,
+#: zoa/inc/customizers/menu-layout.php:582
+msgid "Menu font"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:162,
+#: zoa/inc/customizers/menu-layout.php:306,
+#: zoa/inc/customizers/menu-layout.php:469,
+#: zoa/inc/customizers/menu-layout.php:592
+msgid "Parent menu"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:189,
+#: zoa/inc/customizers/menu-layout.php:333,
+#: zoa/inc/customizers/menu-layout.php:498,
+#: zoa/inc/customizers/menu-layout.php:619
+msgid "Submenu"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:267,
+#: zoa/inc/customizers/menu-layout.php:553
+msgid "Highlight color"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:418
+msgid "Hightlight menu color"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:447
+msgid "Nav menu"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:647
+msgid "Sidebar Menu Links"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:661
+msgid "Sidebar Menu Social"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:675
+msgid "Sidebar Menu Copyright"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:687
+msgid "Topbar Color"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:706
+msgid "Topbar Background Color"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:725
+msgid "Topbar Left Content"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:739
+msgid "Topbar Center Content"
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:741
+msgid "Summer sale discount 50&#37; off."
+msgstr ""
+
+#: zoa/inc/customizers/menu-layout.php:749
+msgid "Topbar Right Content"
+msgstr ""
+
+#: zoa/inc/customizers/page-header.php:6
+msgid "Page Header"
+msgstr ""
+
+#: zoa/inc/customizers/page-header.php:128
+msgid "Shop single navigation"
+msgstr ""
+
+#: zoa/inc/customizers/page-header.php:131
+msgid "This option available only on product page"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:7
+msgid "Shop single"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:22,
+#: zoa/framework-customizations/theme/options/posts/product.php:17
+msgid "List"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:23,
+#: zoa/framework-customizations/theme/options/posts/product.php:18
+msgid "Grid"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:24,
+#: zoa/framework-customizations/theme/options/posts/product.php:19
+msgid "Vertical carousel"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:25,
+#: zoa/framework-customizations/theme/options/posts/product.php:20
+msgid "Horizontal carousel"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:34
+msgid "Related product"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:50
+msgid "Related columns"
+msgstr ""
+
+#: zoa/inc/customizers/shop-single.php:66
+msgid "Ajax single add to cart"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:7
+msgid "Shop"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:20
+msgid "Choose your page header preset to apply for woocommerce pages"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:40
+msgid "Shop Title"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:75
+msgid "Flexible Sidebar"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:98
+msgid "Ajax Search for Shop Products"
+msgstr ""
+
+#: zoa/inc/customizers/shop.php:113
+msgid "Quick Actions on Mobile"
+msgstr ""
+
+#: zoa/inc/customizers/title-tagline.php:7
+msgid "Retina Logo"
+msgstr ""
+
+#: zoa/inc/customizers/title-tagline.php:16
+msgid "Secondary Logo"
+msgstr ""
+
+#: zoa/inc/customizers/title-tagline.php:17
+msgid "Upload a logo for transparent menu with dark hero image"
+msgstr ""
+
+#: zoa/inc/customizers/title-tagline.php:26
+msgid "Logo Width"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:7
+msgid "Typography"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:19
+msgid "Body font"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:83
+msgid "Heading font"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:226
+msgid "H1"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:227,
+#: zoa/inc/customizers/typography.php:246,
+#: zoa/inc/customizers/typography.php:265,
+#: zoa/inc/customizers/typography.php:284,
+#: zoa/inc/customizers/typography.php:303,
+#: zoa/inc/customizers/typography.php:322
+msgid "Font size"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:245
+msgid "H2"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:264
+msgid "H3"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:283
+msgid "H4"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:302
+msgid "H5"
+msgstr ""
+
+#: zoa/inc/customizers/typography.php:321
+msgid "H6"
+msgstr ""
+
+#: zoa/inc/woocommerce/archive.php:97
+msgid "Swatch image"
+msgstr ""
+
+#: zoa/inc/woocommerce/cart.php:19
+msgid "Clear Shopping Cart"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-product.php:21
+msgid "Sale!"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-product.php:140,
+#: zoa/inc/woocommerce/content-single-product.php:267
+msgid "Something is wrong, please try again later..."
+msgstr ""
+
+#: zoa/inc/woocommerce/content-product.php:229
+msgid "Sorry, nothing found"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-single-product.php:200,
+#: zoa/framework-customizations/theme/options/posts/post.php:98,
+#: zoa/framework-customizations/theme/options/posts/product.php:25
+msgid "Video"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-single-product.php:228
+msgid "You cannot add that amount of this product to the cart because there is not enough stock."
+msgstr ""
+
+#: zoa/inc/woocommerce/content-single-product.php:229
+msgid "You cannot add that amount to the cart - we have %1$s in stock and you already have %1$s in your cart"
+msgstr ""
+
+#: zoa/inc/woocommerce/content-single-product.php:230
+msgid "Please enter a valid quantity for this product"
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:25
+msgid "Login / Register"
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:28
+msgid "Dashboard"
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:30, zoa/inc/woocommerce/general.php:59
+msgid "Logout"
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:57
+msgid "Login"
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:67
+msgid "Shopping Cart"
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:100
+msgid "Toggle Shop Sidebar"
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:165
+msgid "Search...."
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:246
+msgid "Shopping cart"
+msgstr ""
+
+#: zoa/inc/woocommerce/general.php:296
+msgid "Sold out"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/social-share/hooks.php:22
+msgid "Share:"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/social-share/manifest.php:8
+msgid "Social Share"
+msgstr ""
+
+#: zoa/framework-customizations/extensions/social-share/manifest.php:9
+msgid "This extension adds social share buttons to your WooCommerce single product page."
+msgstr ""
+
+#: zoa/inc/widgets/mailchimp-subscribe/class-widget-mailchimp-subscribe.php:9
+msgid "Mailchimp Subscribe Form"
+msgstr ""
+
+#: zoa/inc/widgets/mailchimp-subscribe/class-widget-mailchimp-subscribe.php:43
+msgid "Title:"
+msgstr ""
+
+#: zoa/inc/widgets/mailchimp-subscribe/class-widget-mailchimp-subscribe.php:49
+msgid "Form action:"
+msgstr ""
+
+#: zoa/inc/widgets/recent-posts-with-thumbnail/class-widget-recent-posts-with-thumbnail.php:6
+msgid "List recent posts with thubmnail"
+msgstr ""
+
+#: zoa/inc/widgets/recent-posts-with-thumbnail/class-widget-recent-posts-with-thumbnail.php:9
+msgid "Recent posts with thumbnail"
+msgstr ""
+
+#: zoa/inc/widgets/recent-posts-with-thumbnail/class-widget-recent-posts-with-thumbnail.php:32
+msgid "Recent Posts"
+msgstr ""
+
+#: zoa/inc/widgets/recent-posts-with-thumbnail/class-widget-recent-posts-with-thumbnail.php:43
+msgid "Number of posts"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:29
+msgid "Page header"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:58
+msgid "Gallery"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:61
+msgid "Upload"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:62
+msgid "Multiple Images for Gallery post format."
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:66
+msgid "Show arrows"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:79
+msgid "Show dots"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:101
+msgid "Video embed"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:104
+msgid "Youtube"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:105
+msgid "Vimeo"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:110
+msgid "Video ID"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:111
+msgid "Just paste the bold part of the video's URL: %1$s%2$s"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:124
+msgid "Audio"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:127
+msgid "Input"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:128
+msgid "Enter iframe for Audio format"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/post.php:137
+msgid "Post Customizing"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:12
+msgid "Default: Customizer -> Shop single -> Layout"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:27
+msgid "Add a video url of the product"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:33
+msgid "Label"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:37
+msgid "Text"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:39
+msgid "Add custom label for this product, example: Hot"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:43
+msgid "Text color"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:49
+msgid "Background color"
+msgstr ""
+
+#: zoa/framework-customizations/theme/options/posts/product.php:59
+msgid "Product Customizing"
+msgstr ""
+
+#: zoa/inc/widgets/mailchimp-subscribe/views/widget.php:7
+msgid "Enter your e-mail"
+msgstr ""
+
+#: zoa/inc/widgets/mailchimp-subscribe/views/widget.php:8
+msgid "Subscribe"
+msgstr ""
+
+msgid "See more details"
+msgstr "詳細を見る"
+
+msgid "Appointment Info"
+msgstr "ご予約情報"
+
+msgid "Time"
+msgstr "時間"
+
+msgid "Your Info"
+msgstr "お客様情報"
+
+msgid "Your Inquiry"
+msgstr "事前質問"
+
+msgid "Additional Question"
+msgstr "その他質問"
+
+msgid "Next"
+msgstr "次へ"
+
+msgid "Previous"
+msgstr "前へ"
+
+msgid "Confirm"
+msgstr "確認画面へ"
+
+msgid "Please tell me your information."
+msgstr "お客様の情報をご記入ください。"
+
+msgid "Inspired Photo"
+msgstr "参考写真"
+
+msgid "Please wait..."
+msgstr "しばらくお待ちください..."
+
+msgid "Do you want to register as client?"
+msgstr "会員登録をして予約する"
+
+msgid "Name Kana"
+msgstr "ふりがな"
+
+msgid "Confirmation"
+msgstr "内容確認"
+
+msgid "Confirm your appointment"
+msgstr "予約内容確認"
+
+msgid "Book"
+msgstr "予約を申し込む"
+
+msgid "Back"
+msgstr "戻る"
+
+msgid "Published in %1$s %2$s %3$s"
+msgstr "%1$sの%3$s年%2$s号に掲載されました。"
+
+msgid "cancel_appointment_email_text"
+msgstr "この予約をキャンセルするには、<a %1$s>マイページ</a> からキャンセルをするか、<br><a %2$s>%3$s</a> までお電話、またはこちらのメールに返信にてご連絡ください。<br>この予約のキャンセル可能日は %5$s までです。"
+
+msgid "guest_cancel_appointment_email_text"
+msgstr "この予約をキャンセルするには、 <a %1$s>%2$s</a>までお電話、またはこちらのメールに返信にてご連絡ください。<br>この予約のキャンセル可能日は %4$s までです。"
+
+msgid "thank_you_for_your_reservation_email_text"
+msgstr "この度は%1$sのコンサルテーション・フィッティングのご予約をいただき、誠にありがとうございます。ご予約を<strong>%2$s</strong>にて承らせていただきました。お客様のご来店をおまちしております。"
+
+msgid "cancel_appointment_confirm_text"
+msgstr "このご予約のキャンセルは%2$sの%1$sまでとなります。"
+
+msgid "Are you sure to cancel this appointment?"
+msgstr "本当にこの予約をキャンセルしますか？"
+
+msgid "Date is empty"
+msgstr "日付が選択されていません。"
+
+msgid "Time is empty"
+msgstr "時間が選択されていません。"
+
+msgid "Date is not selected"
+msgstr "日付が選択されていません。"
+
+msgid "Time is not selected"
+msgstr "時間が選択されていません。"
+
+msgid "My Appointments"
+msgstr "アポイントメント履歴"
+
+msgid "To cancel an appointment, please click \"Cancel\" button."
+msgstr "予約をキャンセルするには、キャンセルボタンをクリックしてください。"
+
+msgid "Appointment Number"
+msgstr "予約番号"
+
+msgid "Appointment Date/Time"
+msgstr "予約日時"
+
+msgid "Appointment Status"
+msgstr "予約状況"
+
+msgid "Service Type"
+msgstr "サービス名"
+
+msgid "Appointment Details"
+msgstr "ご予約詳細"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Total"
+msgstr "合計金額"
+
+msgid "Order Status"
+msgstr "注文状況"
+
+msgid "Order Number"
+msgstr "注文番号"
+
+msgid "Order Date"
+msgstr "注文日"
+
+msgid "Order Details"
+msgstr "注文詳細"
+
+msgid "Quantity"
+msgstr "数量"
+
+msgid "Order note"
+msgstr "注文備考"
+
+msgid "Cart Total"
+msgstr "カート合計金額"
+
+msgid "Order Info"
+msgstr "ご注文情報"
+
+msgid "Order Total"
+msgstr "ご注文金額"
+
+msgid "Shipping Address"
+msgstr "お届け先住所"
+
+msgid "Customer Details"
+msgstr "お客様情報"
+
+msgid "Return to Order History"
+msgstr "注文履歴一覧に戻る"
+
+msgid "In Stock"
+msgstr "在庫あり"
+
+msgid "Out of Stock"
+msgstr "SOLD OUT"
+
+msgid "Welcome back! If you already have an account with us, please sign in."
+msgstr "すでに会員登録をされている方はログインしてください。"
+
+msgid "Please create your account here."
+msgstr "新規会員登録はこちらからご登録ください。"
+
+msgid "Create Account"
+msgstr "会員登録する"
+
+msgid "To create an account, you agree to [term_conditions] and [privacy_policy]."
+msgstr " [term_conditions] と [privacy_policy]に同意する"
+
+msgid "To processing your order, you agree to [term_conditions] and [privacy_policy]."
+msgstr " [term_conditions] と [privacy_policy]に同意します"
+
+msgid "To create an account, you agree to [cancel_policy] and [privacy_policy]."
+msgstr " [cancel_policy] と [privacy_policy]に同意する"
+
+msgid "To processing your order, you agree to [cancel_policy] and [privacy_policy]."
+msgstr " [cancel_policy] と [privacy_policy]に同意します"
+
+msgid "Please fill in delivery address details below."
+msgstr "下記にお届け先住所をご入力ください。"
+
+msgid "Please fill in billing address details below."
+msgstr "下記に請求先先住所をご入力ください。"
+
+msgid "Remove From Wishlist"
+msgstr "お気に入りから削除"
+
+msgid "Edit Billing Address"
+msgstr "請求先住所を編集"
+
+msgid "Edit Shipping Address"
+msgstr "お届け先住所を編集"
+
+msgid "Use shipping address as my billing address"
+msgstr "お届け先住所を請求先住所として使う"
+
+msgid "Update your personal details"
+msgstr "アカウント情報の更新"
+
+msgid "Date of Birth"
+msgstr "生年月日"
+
+msgid "My Account Info"
+msgstr "アカウント情報"
+
+msgid "My Orders"
+msgstr "注文履歴"
+
+msgid "My Addresses"
+msgstr "登録住所"
+
+msgid "My Wishlist"
+msgstr "お気に入りリスト"
+
+msgid "Please fill in the information below:"
+msgstr "下記の項目をご入力ください:"
+
+msgid "Payment"
+msgstr "お支払い"
+
+msgid "Billing Details"
+msgstr "請求先情報"
+
+msgid "Delivery Details"
+msgstr "お届け先情報"
+
+msgid "Order Confirmation"
+msgstr "ご注文確認"
+
+msgid "Order Summary"
+msgstr ""
+
+msgid "Edit Cart"
+msgstr "カートを編集"
+
+msgid "Terms of Service"
+msgstr "利用規約"
+
+msgid "Agree to the Terms of Service"
+msgstr "利用規約に同意する"
+
+msgid "Thank you for booking"
+msgstr "ご予約ありがとうございます"
+
+msgid "We have a booking via form"
+msgstr "お客様から予約がきています"
+
+msgid "All prices are inclusive of taxes."
+msgstr "全ての金額には税金が含まれています"
+
+msgid "Size Info"
+msgstr "サイズ情報"
+
+msgid "Item Info"
+msgstr "アイテム情報"
+
+msgid "Fabric"
+msgstr "素材"
+
+msgid "About Delivery"
+msgstr "配送について"
+
+msgid "Bank Name"
+msgstr "銀行名"
+
+msgid "Branch name"
+msgstr "支店名"
+
+msgid "Account Type"
+msgstr "種別"
+
+msgid "Account Number"
+msgstr "口座番号"
+
+msgid "Account Name"
+msgstr "口座名義"
+
+msgid "Amount"
+msgstr "金額"
+
+msgid "Payment method"
+msgstr "決済方法"
+
+msgid "Are you sure to cancel this order ?"
+msgstr "本当にこの注文をキャンセルしますか？"
+
+msgid "What's Body Shape?"
+msgstr "BODY SHAPEについて"
+
+msgid "About Size"
+msgstr "サイズについて"
+
+msgid "About Chiyono Anne's Size"
+msgstr "Chiyono Anneサイズについて"
+
+msgid "Ship together"
+msgstr "まとめて配送"
+
+msgid "Ship according to completion date"
+msgstr "準備ができた商品から順に発送"
+
+msgid "%s pkg."
+msgstr "%s回"
+
+msgid "%1s pkg."
+msgstr "%1s回"
+
+msgid "Too short"
+msgstr "短すぎます"
+
+msgid "Too bad"
+msgstr "簡単すぎます"
+
+msgid "Better but not enough"
+msgstr "普通です"
+
+msgid "Better"
+msgstr "良いです"
+
+msgid "Your passwords do not match, please re-enter them."
+msgstr "パスワードが一致しません"
+
+msgid "make it stronger"
+msgstr "パスワードを強化してください"
+
+msgid "Hip"
+msgstr "ヒップ"
+
+msgid "Cup Size"
+msgstr "カップサイズ"
+
+msgid "Under Bust"
+msgstr "アンダーバスト"
+
+msgid "Sign in / Register"
+msgstr "ログイン / 会員登録"
+
+msgid "my account"
+msgstr "マイアカウント"
+
+msgid "Shipping fee will be shown after you input your shipping address."
+msgstr "送料はご住所を入力した時点で表示されます。"
+
+msgid "Model size info"
+msgstr "モデルサイズ情報"
+
+msgid "Measurement"
+msgstr "モデル寸法"
+
+msgid "Wearing Size"
+msgstr "着用サイズ"
+
+msgid " size"
+msgstr "サイズ"
+
+msgid "Item description"
+msgstr "商品説明"
+
+msgid "Feature"
+msgstr "特徴"
+
+msgid "Recommend to who"
+msgstr "こんな方にオススメ"
+
+msgid "Just go to next step because your item doesn't need shipping info."
+msgstr "カートに入っている商品は配送が必要ありません。次のステップへお進みください。"
+
+msgid "Your order has been received and is now being processed."
+msgstr "お客様のご注文を受けつけました。<br/>現在ご注文は「処理中」となります。"
+
+msgid "We'll drop another email when your order ships."
+msgstr "配送時に別途自動メールが配信されますので、<br/>お届けまで今しばらくお待ちください。"
+
+msgid "Your order has been received and is now on hold."
+msgstr "お客様のご注文を受けつけました。<br/>現在ご注文は「保留中」となります。<br/>振込期限内に以下の振込先までご入金をお願い致します。<br/>ご入金確認後、注文は「処理中」となります。"
+
+msgid "We'll drop another email after you purchase for this order."
+msgstr "ご入金後に別途自動メールが配信されます。"
+
+msgid "Your order details are shown below for your reference:"
+msgstr "ご注文詳細は以下です。"
+
+msgid "Store Setting"
+msgstr "ストア設定"
+
+msgid "Deliver Option"
+msgstr "配送オプション"
+
+msgid "Your order was shipped via "
+msgstr "配送会社: "
+
+msgid "Tracking number is "
+msgstr "追跡番号: "
+
+msgid "Products successfully added to cart!"
+msgstr "商品がカートに追加されました！"
+
+msgid "View cart"
+msgstr "かごの中身を見る"
+
+msgid "Kana Name"
+msgstr "お名前（カナ）"
+
+msgid "Last Name"
+msgstr "姓"
+
+msgid "First Name"
+msgstr "名"
+
+msgid "Last Name Kana"
+msgstr "姓(フリガナ)"
+
+msgid "First Name Kana"
+msgstr "名(フリガナ)"
+
+msgid "Email"
+msgstr "メールアドレス"
+
+msgid "Phone"
+msgstr "電話番号"
+
+msgid "Other Tools"
+msgstr "その他ツール"
+
+msgid "Year"
+msgstr "年"
+
+msgid "Month"
+msgstr "月"
+
+msgid "Day"
+msgstr "日"
+
+msgid "Agree with delivery estimated delivery date"
+msgstr "納期目安を確認しました"
+
+msgid "Please agree with delivery estimated delivery date"
+msgstr "「納期目安を確認しました」にチェックがされていません"
+
+msgid "You still have %s for gift card"
+msgstr "ギフトカードの残高がまだ %s あります。残高がある場合でも1回のみの使い切りとなりますので、ご注意ください。"
+
+msgid "I have read and accept the <a href=\"%s\">Privacy Policy</a>"
+msgstr "<a href=\"%s\">プライバシーポリシー</a>に同意する"
+
+msgid "Privacy Policy consent is required!"
+msgstr "プライバシーポリシーに同意してください"
+
+msgid "Your type is "
+msgstr "選択した種類は"
+
+msgid "Selected type"
+msgstr "選択した種類"
+
+msgid "Selected size"
+msgstr "選択したサイズ"
+
+msgid "Selected type: "
+msgstr "選択した種類: "
+
+msgid "Your type"
+msgstr "選択した種類"
+
+msgid "Online Consultation"
+msgstr ""
+
+msgid "Choose Bra you prefer"
+msgstr ""
+
+msgid "Choose Bra Size"
+msgstr ""
+
+msgid "ZOOM Meeting ID"
+msgstr "ZOOMミィーティングID"
+
+msgid "Soft Bra"
+msgstr "ソフトブラ"
+
+msgid "Plunge Bra"
+msgstr "プランジブラ"
+
+msgid "Sorry, can choose 2 sizes as max"
+msgstr "サイズ選択は最大2種類までです。"
+
+msgid "Sorry, can choose 6 bra as max"
+msgstr "6種類以内でご選択ください。"
+
+msgid "Choose a bra you prefer at least one."
+msgstr "気になっているブラを以下から最低1つ（最大6つまで）選択してください。"
+
+msgid "Choose a bra type you prefer at least one."
+msgstr "気になっているブラタイプを以下から最低1つ（最大6つまで）選択してください。"
+
+msgid "Choose bra sizes you want to try for fitting."
+msgstr "試着されたいサイズを選択してください。（最大2つまで）"
+
+msgid "If you want to take an online conslutation, please check."
+msgstr "ZOOMにて千代乃とのオンラインコンサルテーション（有料）をご希望の方はチェックしてください。<br>(所要時間約20分)"
+
+msgid "I would like to request!"
+msgstr "希望する"
+
+msgid "Additional options total"
+msgstr "オプション金額"
+
+msgid "Order total"
+msgstr "合計金額"
+
+msgid "Product price"
+msgstr "商品価格"
+
+msgid "Product fee"
+msgstr "サンプル保証金"
+
+msgid "Notion for Online Consultation"
+msgstr "オンラインコンサルテーションに関する事前注意事項"
+
+msgid "*This deposit will be refund after we receive your return."
+msgstr "*この保証金はサンプルブラ返送時に自動返金されます。"
+
+msgid "I confirmed and agree"
+msgstr "規約を確認しました"
+
+msgid "I would like to receive exclusive emails with discounts and product information"
+msgstr "ニュースレターの受け取りを希望する"
+
+msgid "Agree with term of use of try fit your size."
+msgstr "事前フィッティングサービス利用規約に同意します"
+
+msgid "Please agree with term of use of try fit your size."
+msgstr "事前フィッティングサービス利用規約への同意は必須です。"
+
+msgid "You can not buy this item more than 1, please remove current added item from cart."
+msgstr "この商品は1つ以上のご注文は不可です。カートにある同じ商品を削除してください。"
+
+msgid "BOOKING NOW!"
+msgstr "ご予約はこちら"
+
+msgid "Cancel Policy"
+msgstr "キャンセリポリシー"
+
+msgid "Terms of Use"
+msgstr "利用規約"
+
+msgid "Prepare to send"
+msgstr "キット発送準備中"
+
+msgid "Sent sample & waiting return"
+msgstr "キット発送済み/返送待ち"
+
+msgid "Sample returned"
+msgstr "サンプル返送済み"
+
+msgid "Complete(not refund)"
+msgstr "完了(保証金全額返金なし)"
+
+msgid "Tracking Number"
+msgstr "追跡番号"
+
+msgid "You can track below url."
+msgstr "以下の追跡URLから配送状況をご確認いただけます。（反映までに時間がかかることがございます）"
+
+msgid "TRACK NOW"
+msgstr "追跡リンクを開く"
+
+msgid "*if you want to change email, change from <a href=\"%s\">my page</a>"
+msgstr "*メールアドレスを変更する場合は、お手数ですが<a href=\"%s\">マイページ</a>からご変更ください。"
+
+msgid "Bra deposit"
+msgstr "ブラ保証金"
+
+msgid "Price for online consultation"
+msgstr "オンランコンサル料金"
+
+msgid "Deadline allow return sample product"
+msgstr "サンプル返送期限日数"
+
+msgid "Auto Send Waring Email before x (day) before deadline"
+msgstr "返送催促メール返送期限から何日前"
+
+msgid "Auto Send Waring Email before x (hours) appointment time/date"
+msgstr "オンラインコンサルリマインドメール/予約時間から何時間前"
+
+msgid "Stock for sample bras"
+msgstr "サンプルブラ在庫"
+
+msgid "Try fit your size setting"
+msgstr "T.B.T.Y設定"
+
+msgid "Choose plunge bra sizes you want to try for fitting."
+msgstr "プランジブラのサンプルサイズを選択"
+
+msgid "Choose soft bra sizes you want to try for fitting."
+msgstr "ソフトブラのサンプルサイズを選択"
+
+msgid "Plunge Bra Size"
+msgstr "プランジブラ選択サイズ"
+
+msgid "Soft Bra Size"
+msgstr "ソフトブラ選択サイズ"
+
+msgid "Refund for product fee"
+msgstr "返金金額:"
+
+msgid "Sorry. Please book for Online Consultation 1 week later since the order is placed"
+msgstr "T.B.T.Yサービスご注文日より１週間後の空き枠がご予約可能です。"
+
+msgid "Warning return sample product To Admin"
+msgstr "【管理者通知】サンプル返却期限間近のお知らせ"
+
+msgid "New password"
+msgstr "新しいパスワード"
+
+msgid "Re-enter new password"
+msgstr "パスワード（確認）"
+
+msgid "Account details changed successfully."
+msgstr "アカウント情報を正常に変更しました。"
+
+msgid "You still have %s OFF coupon x %s"
+msgstr "%sOFFのクーポンがあと%s回ご利用いただけます"
+
+msgid "You have only %s coupon left!"
+msgstr "クーポンが残り%s回ご利用いただけます"
+
+msgid "(You have %s coupons left)"
+msgstr "(クーポン残り%s回)"
+
+msgid "(You have only %s coupon left)"
+msgstr "(クーポン残り%s回)"
+
+msgid "Pay for this order"
+msgstr "注文のお支払いはこちら"
+
+msgid "(Free for %s member ship!)"
+msgstr "%s会員特典にて送料無料！"
+
+msgid "Enter your full address to see shipping costs."
+msgstr "送料は配送住所の入力後に表示されます"
+
+msgid "Click here to enter your code"
+msgstr "クーポンコードを入力"
+
+msgid "Service product and regular products cannot be ordered together. Please order separately"
+msgstr "この商品は通常商品と同時にご注文が不可です。恐れ入りますが、別々にご注文ください。"
+
+msgid "The order #%d refunded by customer. Order Details:"
+msgstr "この注文 #%d はお客様によって返金・キャンセルされました。注文詳細は以下です。"
+
+msgid "Model Size Info"
+msgstr "モデルサイズ情報"
+
+msgid "Model Measurement"
+msgstr "モデル寸法"
+
+msgid "Bust:"
+msgstr "バスト:"
+
+msgid "Under:"
+msgstr "アンダー:"
+
+msgid "Waist:"
+msgstr "ウエスト:"
+
+msgid "Hip:"
+msgstr "ヒップ:"
+
+msgid "Heights:"
+msgstr "身長:"
+
+msgid "Model Wear Size Info"
+msgstr "モデル着用サイズ情報"
+
+msgid "This product can not be ordered with a product that is in a cart. Please order separately."
+msgstr "現在カートに入っている商品と合わせてのご注文はできません。恐れ入りますが、別々にご注文をお願いいたします。"
+
+msgid "Next update date of your rank:"
+msgstr "次回会員ステータス更新日時:"
+
+msgid "Next update date of your rank"
+msgstr "次回会員ステータス更新日時"
+
+msgid "Purchased amount for next rank"
+msgstr "現タームのご購入総額"
+
+msgid "To rank up next, "
+msgstr "次のランクアップまで残り"
+
+msgid "spend"
+msgstr "残り"
+
+msgid "to rank up next"
+msgstr "で次回ランクアップ"
+
+msgid "to rank up"
+msgstr "でランクアップ"
+
+msgid "Total Purchases Amount"
+msgstr "ご購入累計額"
+
+msgid "(in the Past Year)"
+msgstr "(過去1年)"
+
+msgid "To Retain"
+msgstr "ランク維持金額"
+
+msgid "To Retain Your Rank on Next"
+msgstr "次回更新日までに"
+
+msgid "Paid Date"
+msgstr "支払日"
+
+msgid "Never"
+msgstr "いいえ"
+
+msgid "Yes, fitted by Chiyono"
+msgstr "はい、Chiyonoによるフィッティング"
+
+msgid "Yes, fitted at T.B.Y.B"
+msgstr "はい、T.B.Y.Bでフィッティング"
+
+msgid "Do you have experience with fittings by us?"
+msgstr "フィッティングのご経験はありますか？"
+
+msgid "Please select"
+msgstr "選択してください"
